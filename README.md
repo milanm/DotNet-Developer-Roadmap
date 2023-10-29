@@ -54,7 +54,7 @@ Different runtimes use different class libraries, e.g., .NET Framework uses .NET
 
 C# is a programming language developed by Microsoft. It's a go-to choice for building anything from desktop applications and games (using Unity) to cloud-based solutions and web services. With strong support for object-oriented programming and a rich library, it's designed to be easy and efficient. 
 
-You need to understand different C# language features, such as:
+You need to understand different **C# language features**, such as:
 
 - Object-oriented programming (classes, objects, interfaces, inheritance, polymorphism)
 - Variables, data types, and operators
@@ -68,7 +68,7 @@ You need to understand different C# language features, such as:
 - LINQ (Language Integrated Query)
 - Async and await for asynchronous programming
 
-But also .NET libraries and APIs for:
+But also **.NET libraries and APIs** for:
 
 - File I/O and serialization
 - Collections and data structures
@@ -98,7 +98,7 @@ Mastering design patterns, clean code, and version control like Git enables you 
 
 Here, you need to know different principles, such as:
 
-SOLID Principles:
+**SOLID Principles**:
   - Single Responsibility Principle (SRP)
   - Open/Closed Principle (OCP)
   - Liskov Substitution Principle (LSP)
@@ -131,7 +131,7 @@ Resources:
 
 It is a cross-platform, high-performance framework developed by Microsoft for building web apps, APIs, and microservices. You can also run your apps on Windows, Linux, or macOS. It's engineered for flexibility and scalability with features like built-in dependency injection and a robust configuration system.
 
-Here, you also need to know web application fundamentals, such as:
+Here, you also need to know **web application fundamentals**, such as:
 
 - HTML, CSS, and JavaScript for front-end development
 - HTTP protocols, request/response model, and RESTful APIs
@@ -204,7 +204,7 @@ Resources:
 
 Object-relational mapping (ORM) is like a translator between your object-oriented C# code and the relational database, eliminating the tedious task of writing SQL queries for basic CRUD operations. Using ORM frameworks like Entity Framework, you can manipulate data as objects in your code, making it more readable and maintainable. This speeds up development, minimizes errors, and lets you focus on complex business logic rather than wrestling with database syntax.
 
-For Entity Framework, you need to know the following:
+For **Entity Framework**, you need to know the following:
 
 - DbContext and DbSet for managing database connections and querying data
 - Code-First and Database-First approaches for defining data models
