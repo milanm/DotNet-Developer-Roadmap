@@ -20,7 +20,7 @@ Download [PDF version](NET%20Roadmap.pdf).
 
 ## Understanding the .NET ecosystem
 
-Before going into specifics, you need to have a solid understanding of **.NET Ecosystem**. Here are a few that you should understand:
+Before going into specifics, you need to have a solid understanding of the **.NET Ecosystem**. Here are a few that you should understand:
 
 ## .NET runtimes
 
@@ -46,7 +46,7 @@ In this section, we will look at the main .NET runtimes. We consider .NET runtim
 
 ## .NET Standard
 
-Different runtimes use different class libraries, e.g., .NET Framework uses .NET Framework class library, while .NET Core contains its class library, as well as Xamarin with its class library. In this way, it's hard to share code between different runtimes, as they use different APIs. Microsoft's solution is the .NET Standard library, released in 2016. It represents a set of (formal) specifications that say which APIs you can use and all runtimes implement it. It is the evolution of Portable Class Libraries (PCL). Specific runtimes implement specific versions of .NET Standard (implementing specific APIs). E.g., .NET Framework 4.6.1 implements .NET Standard 2.0 and .NET 5 implements .NET Standard 2.1 ([link](https://learn.microsoft.com/en-us/dotnet/standard/net-standard?tabs=net-standard-1-0#net-implementation-support)).
+Different runtimes use different class libraries, e.g., .NET Framework uses .NET Framework class library, while .NET Core contains its class library, as well as Xamarin with its class library. In this way, it's hard to share code between different runtimes, as they use different APIs. Microsoft's solution is the .NET Standard library, released in 2016. It represents a set of (formal) specifications that say which APIs you can use and all runtimes implement it. It is the evolution of Portable Class Libraries (PCL). Specific runtimes implement specific versions of .NET Standard (implementing specific APIs). E.g., .NET Framework 4.6.1 implements .NET Standard 2.0, and .NET 5 implements .NET Standard 2.1 ([link](https://learn.microsoft.com/en-us/dotnet/standard/net-standard?tabs=net-standard-1-0#net-implementation-support)).
 
 ## Learning resources
 
@@ -76,7 +76,7 @@ But also **.NET libraries and APIs** for:
 - Multithreading and task parallelism
 - Security and cryptography
 
-Resources:
+**Resources**:
 
 - [Microsoft Learn C#](https://dotnet.microsoft.com/en-us/learn/csharp).
 - [Microsoft C# Fundamentals for Absolute Beginners](https://learn.microsoft.com/en-us/shows/c-fundamentals-for-absolute-beginners/).
@@ -114,7 +114,7 @@ But also:
 - Composition over Inheritance
 - The principle of least astonishment
 
-Resources:
+**Resources**:
 
 - Learn [Git](https://newsletter.techworld-with-milan.com/p/how-to-learn-git)
 - Learn [HTTP(S) protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
@@ -138,7 +138,7 @@ Here, you also need to know **web application fundamentals**, such as:
 - Routing, middleware, authentication, and authorization
 - Model-View-Controller (MVC) and Razor Pages patterns
 
-Resources:
+**Resources**:
 
 - [ASP.NET Core Fundamentals by Scott Alen](https://www.pluralsight.com/courses/aspnet-core-fundamentals) course
 - [ASP.NET MVC 5 Fundamentals by Scott Alen](https://www.pluralsight.com/courses/aspdotnet-mvc5-fundamentals) course
@@ -166,7 +166,7 @@ Resources:
 
 If you want to build UIs in .NET, you will need these frameworks. Razor is a template engine for creating dynamic HTML, while Blazor takes it up a notch, letting you build interactive web UIs using C# instead of JavaScript. MAUI is a Xamarin successor made for building cross-platform mobile apps.
 
-Resources:
+**Resources**:
 
 - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
 - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
@@ -184,7 +184,7 @@ Here, you need to know:
 - SQL Queries Execution Order
 - What is Query Optimizer
 
-Resources:
+**Resources**:
 
 - [Database design](https://www.youtube.com/watch?v=ztHopE5Wnpc)
 - [Learn SQL](https://newsletter.techworld-with-milan.com/p/how-to-learn-sql)
@@ -212,7 +212,7 @@ For **Entity Framework**, you need to know the following:
 - Querying data using LINQ and raw SQL
 - Tracking changes and saving data
 
-Resources:
+**Resources**:
 
 - [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core)
     - [Code First Migrations](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)
@@ -225,19 +225,19 @@ Resources:
 
 Caching is like your app's personal short-term memory, storing frequently accessed data so it can be quickly retrieved without taxing your database. By reducing database load and speeding up data access, caching gives your app the competitive edge it needs to meet user demands for responsiveness and availability.
 
-Resources:
+**Resources**:
 
 - [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
 - [Redis](https://redis.io/)
 - Application-Level
-   - [Built in](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
+   - [Built-in](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
    - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
 
 ### 8. Logging
 
 Logging captures runtime information, errors, and other crucial data that can help you quickly identify and fix issues, making your application more reliable and secure. Logging frameworks like NLog or Serilog integrate seamlessly into .NET, giving you a real-time diagnostic tool indispensable for monitoring application health, troubleshooting problems, and even gathering insights for future development. 
 
-Resources:
+**Resources**:
 
 - [Serilog](https://github.com/serilog/serilog)
 - [NLog](https://github.com/NLog/NLog)
@@ -247,7 +247,7 @@ Resources:
 
 Real-time communication technologies, like SignalR in the .NET ecosystem, enable these functionalities by maintaining a constant connection between server and client. They are used in interactive experiences, whether live chat, notifications, or real-time updates.
 
-Resources:
+**Resources**:
 
 - [SignalR Core](https://docs.microsoft.com/aspnet/core/signalr)
 - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets) 
@@ -257,7 +257,7 @@ Resources:
 
 These services run tasks in the background, freeing up your application to focus on user interactions. Whether data processing, automated emails, or periodic clean-ups, background services ensure these tasks don't slow down or interrupt the user experience. 
 
-Resources:
+**Resources**:
 
 - [Native BackgroundService](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
 - [HangFire](https://github.com/HangfireIO/Hangfire)
@@ -267,7 +267,7 @@ Resources:
 
 Their libraries automate the task of mapping between objects, eliminating the need for repetitive, error-prone manual mapping code. This boosts productivity and minimizes bugs, especially when dealing with complex models and DTOs (Data Transfer Objects). 
 
-Resources:
+**Resources**:
 
 - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
 - [Mapster](https://github.com/MapsterMapper/Mapster)
@@ -283,7 +283,7 @@ Here you need to know:
 - Asserts and test attributes
 - Mocking libraries (Moq, NSubstitute, etc.)
 
-Resources:
+**Resources**:
 
 - [Unit Testing](https://www.pluralsight.com/courses/advanced-unit-testing)
     - Frameworks
@@ -321,7 +321,7 @@ These tools provide real-time insights into your application's performance, user
 
 - **Telemetry** collects, processes, and transmits data from systems, enabling analysis of patterns, trends, and anomalies.
 
-Resources:
+**Resources**:
 
 - [Prometheus](https://github.com/prometheus/prometheus)
 - [Grafana](https://github.com/grafana/grafana)
@@ -334,6 +334,8 @@ Resources:
 
 Messaging systems act as a middleman between different parts of your system, allowing them to communicate without being directly connected. This decouples your components, making scaling, maintaining, and adding new features easier. Plus, it improves fault tolerance—so if one part fails, it doesn't bring down the whole system.
 
+**Resources**:
+
 - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
 - [MassTransit](https://github.com/MassTransit/MassTransit)
 - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
@@ -342,6 +344,8 @@ Messaging systems act as a middleman between different parts of your system, all
 ### 15. Containerization
 
 Container solutions encapsulate your .NET application, libraries, and runtime into isolated containers. This enables consistency across multiple development and production environments, resolving dependency issues. With features like layered file systems, you can easily manage container images for ASP.NET, .NET Core, or other .NET services, optimizing build times and resource utilization.
+
+**Resources**:
 
 - [Docker](https://www.docker.com)
 - [Kubernetes](https://kubernetes.io)
@@ -354,8 +358,7 @@ The most popular cloud providers in the market are **AWS** and **Azure**, as wel
 
 Here, you must know how to manage users and administration, networks, virtual servers, etc.
 
-
-Resources:
+**Resources**:
 
 - [AWS](https://aws.amazon.com/)
 - [Azure](https://azure.microsoft.com/)
@@ -371,7 +374,7 @@ Here you need to know how to:
 - Version control systems (Git, Azure DevOps)
 - CI/CD platforms (GitHub Actions, Azure Pipelines, Jenkins, TeamCity)
 
-Resources:
+**Resources**:
 
 - [GitHub Actions](https://github.com/features/actions)
 - [Gitlab CI](https://docs.gitlab.com/ee/ci)
@@ -384,14 +387,14 @@ Resources:
 
 Some useful .NET libraries:
 
-- [MediatR](https://github.com/jbogard/MediatR) - Mediator pattern implementation in .NET
-- [Polly](https://github.com/App-vNext/Polly) - Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
-- [Fluent Validation](https://github.com/JeremySkinner/FluentValidation) - .NET validation library for building strongly-typed validation rules.
-- [Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet) - .NET library for benchmarking.
-- [Newstonsoft.json](https://www.newtonsoft.com/json) - High-performance JSON framework for .NET.
-- [Refit](https://github.com/reactiveui/refit) - Turns your REST API into a live interface.
-- [YARP](https://microsoft.github.io/reverse-proxy/) - Reverse proxy server.
-- [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) - Swagger tools for documenting API's built on ASP.NET Core.
+- **[MediatR](https://github.com/jbogard/MediatR)** - Mediator pattern implementation in .NET
+- **[Polly](https://github.com/App-vNext/Polly)** - Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
+- **[Fluent Validation](https://github.com/JeremySkinner/FluentValidation)** - .NET validation library for building strongly-typed validation rules.
+- **[Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)** - .NET library for benchmarking.
+- **[Newstonsoft.json](https://www.newtonsoft.com/json)** - High-performance JSON framework for .NET.
+- **[Refit](https://github.com/reactiveui/refit)** - Turns your REST API into a live interface.
+- **[YARP](https://microsoft.github.io/reverse-proxy/)** - Reverse proxy server.
+- **[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)** - Swagger tools for documenting API's built on ASP.NET Core.
 
 ## Additional considerations
 
