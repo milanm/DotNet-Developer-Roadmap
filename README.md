@@ -408,9 +408,9 @@ Performances play an essential role in .NET applications. Here you need to know:
 
 These tools can help you identify and debug different performance bottlenecks you have in your code. For this, you can use other tools, such as:
 
-- PerfView
-- Visual Studio Profiler
-- dotTrace and dotMemory
+- [PerfView](https://github.com/microsoft/perfview)
+- [Visual Studio Profiler](https://learn.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2022)
+- [dotTrace](https://www.jetbrains.com/profiler/) and [dotMemory](https://www.jetbrains.com/dotmemory/)
 
 #### Performance best practices
 
