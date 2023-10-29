@@ -24,7 +24,7 @@ Before going into specifics, you need to have a solid understanding of the **.NE
 
 ## .NET runtimes
 
-In this section, we will look at the main .NET runtimes. We consider .NET runtime as anything that implements [ECMA-335 Standard for .NET](https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/dotnet-standards.md).
+In this section, we will look at the main .NET runtimes. We consider .NET runtime as anything that implements **[ECMA-335 Standard for .NET](https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/dotnet-standards.md)**.
 
 ### .NET Framework
 
@@ -42,7 +42,7 @@ In this section, we will look at the main .NET runtimes. We consider .NET runtim
 
 .NET 7 is a Standard Term Support release, which is supported for six months after a subsequent STS or LTS release.
 
-.NET 8 (released in November 2023.) will be Long Term Support (LTS). Those releases are supported for three years after the initial release.
+.NET 8 (released in November 2023.) will be **Long Term Support (LTS)**. Those releases are supported for three years after the initial release.
 
 ## .NET Standard
 
@@ -467,12 +467,13 @@ Security plays an essential role in application development. The most critical a
 ## Additional learning resources
 
 - [Awesome .NET!](https://github.com/quozd/awesome-dotnet) - A collection of awesome .NET libraries, tools, frameworks, and software.
-- Books 
+- [Microsoft .NET Architecture Guides](https://dotnet.microsoft.com/en-us/learn/dotnet/architecture-guides)
+- **Books** 
     - [Learn C# in One Day and Learn It Well](https://amzn.to/3Qld3fT) - the best for beginners
     - [C# in Depth: Fourth Edition](https://amzn.to/3ZPcZbq) by Jon Skeet - the best for intermediate
     - [Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming](https://amzn.to/490EMtu) - the best for advanced
     - [The C# Yellow](http://www.csharpcourse.com/) (free) - the best book overall
-- YouTube Channels
+- **YouTube Channels**
     - [IAmTimCorey](https://www.youtube.com/user/IAmTimCorey) 
     - [Programming with Mosh](https://www.youtube.com/user/programmingwithmosh) 
     - [Nick Chapsas](https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg) 
@@ -482,7 +483,7 @@ Security plays an essential role in application development. The most critical a
     - freeCodeCamp
         - [C# Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=GhQdlIFylQ8) (3h)
         - [Advanced C# Programming Course](https://www.youtube.com/watch?v=YT8s-90oDC0) (15h)
-- Blogs
+- **Blogs**
     - Official [.NET Blog](https://devblogs.microsoft.com/dotnet/)
     - [Steve Smith](https://ardalis.com/)
     - [Andrew Lock](https://andrewlock.net/) – Senior Engineer at Datadog
@@ -490,8 +491,7 @@ Security plays an essential role in application development. The most critical a
     - [Adam Sitnik](https://adamsitnik.com/)
     - [Jimmy Bogard](https://www.jimmybogard.com/)
     
-- Other [.NET Content creators](https://www.wearedotnet.io/)
-- [Microsoft .NET Architecture Guides](https://dotnet.microsoft.com/en-us/learn/dotnet/architecture-guides)
+- **Other** [.NET Content creators](https://www.wearedotnet.io/)
 
 ## Wrap Up
 
