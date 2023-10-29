@@ -38,9 +38,7 @@ In this section, we will look at the main .NET runtimes. We consider .NET runtim
 
 ### .NET 7
 
-.NET 7 is the latest runtime in the .NET Ecosystem. It is released in November 2022. and it unifies development for desktop, Web, cloud, mobile, gaming, IoT, and AI applications. .NET 7 consists of an App Host (dotnet.exe) that runs CLR and Library. It has a Common language runtime (CoreCLR) and .NET 7 Class Library. It also includes ASP.NET Core 7.
-
-.NET 7 has nearly identical platform support as .NET Core 3.1 for Windows, macOS, and Linux.
+.NET 7 is the latest runtime in the .NET Ecosystem. It is released in November 2022. and it unifies development for desktop, Web, cloud, mobile, gaming, IoT, and AI applications. .NET 7 consists of an App Host (dotnet.exe) that runs CLR and Library. It has a Common language runtime (CoreCLR) and .NET 7 Class Library. It also includes ASP.NET Core 7. .NET 7 has nearly identical platform support as .NET Core 3.1 for Windows, macOS, and Linux.
 
 .NET 7 is a Standard Term Support release, which is supported for six months after a subsequent STS or LTS release.
 
@@ -386,14 +384,14 @@ Resources:
 
 Some useful .NET libraries:
 
-- [MediatR](https://github.com/jbogard/MediatR)
-- [Polly](https://github.com/App-vNext/Polly)
-- [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
-- [Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)
-- [Newstonsoft.json](https://www.newtonsoft.com/json)
-- [Refit](https://github.com/reactiveui/refit)
-- [YARP](https://microsoft.github.io/reverse-proxy/)
-- [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
+- [MediatR](https://github.com/jbogard/MediatR) - Mediator pattern implementation in .NET
+- [Polly](https://github.com/App-vNext/Polly) - Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
+- [Fluent Validation](https://github.com/JeremySkinner/FluentValidation) - .NET validation library for building strongly-typed validation rules.
+- [Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet) - .NET library for benchmarking.
+- [Newstonsoft.json](https://www.newtonsoft.com/json) - High-performance JSON framework for .NET.
+- [Refit](https://github.com/reactiveui/refit) - Turns your REST API into a live interface.
+- [YARP](https://microsoft.github.io/reverse-proxy/) - Reverse proxy server.
+- [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) - Swagger tools for documenting API's built on ASP.NET Core.
 
 ## Additional considerations
 
