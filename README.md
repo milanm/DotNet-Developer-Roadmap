@@ -447,14 +447,15 @@ Along with tools, you should be aware of different performance best practices fo
 
 Security plays an essential role in application development. The most critical aspects of security in the .NET world are:
 
-- **Authentication and Authorization** concepts:
+- [**Authentication and Authorization**](https://learn.microsoft.com/en-us/aspnet/web-api/overview/security/authentication-and-authorization-in-aspnet-web-api) concepts:
   - Cookies
   - ASP.NET Core Identity for user management
   - .NET OIDC middleware
   - OAuth and OpenID Connect for 3rd-party authentication
   - JWT (JSON Web Tokens) for token-based authentication
   - Role-based and claims-based authorization
-- **Cryptography and Data Protection** concepts:
+
+- [**Cryptography and Data Protection**](https://learn.microsoft.com/en-us/dotnet/standard/security/cross-platform-cryptography) concepts:
   - Symmetric and asymmetric encryption algorithms
   - .NET Core Data Protection APIs
   - Hashing and digital signatures
