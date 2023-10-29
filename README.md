@@ -1,4 +1,4 @@
-# .NET Core Developer Roadmap 2023.
+# .NET Developer Roadmap 2023.
 
 This is a step-by-step guide to becoming a .NET Engineer, with links to relevant learning resources.
 
