@@ -56,6 +56,8 @@ Different runtimes use different class libraries, e.g., .NET Framework uses .NET
 
 C# is a programming language developed by Microsoft. It's a go-to choice for building anything from desktop applications and games (using Unity) to cloud-based solutions and web services. With strong support for object-oriented programming and a rich library, it's designed to be easy and efficient. 
 
+The latest version is [C# 12](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12), released in November 2023.
+
 You need to understand different **C# language features**, such as:
 
 - Object-oriented programming (classes, objects, interfaces, inheritance, polymorphism)
