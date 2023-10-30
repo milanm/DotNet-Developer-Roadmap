@@ -2,7 +2,7 @@
 
 This is a step-by-step guide to becoming a .NET Engineer, with links to relevant learning resources.
 
-If you want to learn more about .NET technologies, be sure to subscribe to [my newsletter](https://github.com/milanm/DotNet-Developer-Roadmap). 
+If you want to learn more about .NET technologies, be sure to subscribe to **[my newsletter](https://newsletter.techworld-with-milan.com/)**. 
 
 ## Disclaimer
 
