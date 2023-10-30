@@ -59,8 +59,10 @@ Different runtimes use different class libraries, e.g., .NET Framework uses .NET
 
 To learn more about the .NET Ecosystem, check [this blog post](https://milan.milanovic.org/post/a-brief-walk-through-net-ecosystem/).
 
+**.NET Release Schedule by Microsoft:**
+
 ![.NET Release schedule by Microsoft](release-schedule.png)
-<center>.NET Release Schedule by Microsoft</center>
+
 
 ## Learning resources
 
