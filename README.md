@@ -90,6 +90,7 @@ But also **.NET libraries and APIs** for:
 - Advanced concepts:
     - [Async/Await](https://devblogs.microsoft.com/dotnet/how-async-await-really-works/) by Stephen Toub
     - [Threading in C#](https://www.albahari.com/threading/) by Joseph Albahari
+    - [Concurrency](https://www.codeguru.com/csharp/thread-synchronization-c-sharp/) and [Locking](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/lock)
 
 
 ### 2. General Development Skills
@@ -121,7 +122,18 @@ But also:
 - Learn [Data Structures & Algorithms](https://amzn.to/3LTsZ6o)
 - Learn [Clean Code](https://amzn.to/3Qdj91J)
 - Learn [Refactoring](https://www.pluralsight.com/courses/refactoring-fundamentals) fundamentals
-- Learn [Design Patterns from the book](https://amzn.to/3QcVQVS) or [video tutorials](https://www.pluralsight.com/paths/design-patterns-in-c)
+- Learn [Design Patterns from the book](https://amzn.to/3QcVQVS) or [video tutorials](https://www.pluralsight.com/paths/design-patterns-in-c) or download [cheat sheet](Patterns.png).
+  - Must know patterns are:
+    - Singleton
+    - Factory Method
+    - Adapter
+    - Facade
+    - Decorator
+    - Proxy
+    - Command
+    - Template method
+    - Strategy
+    - Observer
 - Learn [Main software design](https://newsletter.techworld-with-milan.com/p/main-software-design-principles-you) principles
 - Learn [SOLID](https://www.pluralsight.com/courses/principles-oo-design) principles of OO Design in depth.
 - Learn [Fundamentals of Software Architectures](https://amzn.to/3rEtJWh)
@@ -220,6 +232,7 @@ For **Entity Framework**, you need to know the following:
     - [Lazy Eager Explicit Loading](https://learn.microsoft.com/en-us/ef/core/querying/related-data/) 
 - [Dapper](https://github.com/StackExchange/Dapper)
 - [LINQ](https://www.dotnetnakama.com/blog/understanding-the-dot-net-language-integrated-query-linq/)
+- [ADO.NET](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/)
 
 ### 7. Caching
 
@@ -479,17 +492,35 @@ Security plays an essential role in application development. The most critical a
     - [Nick Chapsas](https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg) 
     - [Milan Jovanovic](https://www.youtube.com/@MilanJovanovicTech) 
     - [Zoran Horvat](https://www.youtube.com/@zoran-horvat) 
-    - [CodeOpinion](https://www.youtube.com/watch?v=_rgH0Kb9Bis)
+    - [CodeOpinion](https://www.youtube.com/watch?v=_rgH0Kb9Bis), by Derek Comartin
     - freeCodeCamp
         - [C# Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=GhQdlIFylQ8) (3h)
         - [Advanced C# Programming Course](https://www.youtube.com/watch?v=YT8s-90oDC0) (15h)
 - **Blogs**
     - Official [.NET Blog](https://devblogs.microsoft.com/dotnet/)
+    - [The Morning Dew](https://www.alvinashcraft.com/), aggregator of different info about .NET world, by Alvin Ashcraft.
+    - [You’ve Been Haacked](https://haacked.com/), by Phil Haack.
+    - [Eric Lippert's blog](https://ericlippert.com/), who worked on C# compiler team.
     - [Steve Smith](https://ardalis.com/)
     - [Andrew Lock](https://andrewlock.net/) – Senior Engineer at Datadog
     - [Scott Hanselman](https://www.hanselman.com/blog/) - Partner Program Manager at Microsoft
-    - [Adam Sitnik](https://adamsitnik.com/)
-    - [Jimmy Bogard](https://www.jimmybogard.com/)
+    - [Rick Strahl's Web Log](https://weblog.west-wind.com/)
+    - [Adam Sitnik](https://adamsitnik.com/), an expert on .NET Performance and Reliability.
+    - [Jimmy Bogard](https://www.jimmybogard.com/), creator of AutoMapper.
+    - [Vladimir Khorikov](https://enterprisecraftsmanship.com/), and expert in Testing.
+    - [Ayende @ Rahien](https://ayende.com/blog/), written by Oren Eini, creator of RavenDB.
+    - [Maarten Balliauw](https://blog.maartenballiauw.be/)
+    - [Stephen Cleary](https://blog.stephencleary.com/), the author of "Concurrency in C# Cookbook"
+    - [Khalid Abuhakmeh’s Blog](https://khalidabuhakmeh.com/)
+    - [Scott Brady](https://www.scottbrady91.com/articles), an expert on OAuth and web security.
+    - [Jiří Činčura](https://www.tabsoverspaces.com/), a project lead for ADO.NET provider for Firebird DB.
+    - [Coding Militia](https://blog.codingmilitia.com/)
+    - [Michael Shpilt](https://michaelscodingspot.com/), a software developer working at Microsoft
+    - [Mark Seemann](https://blog.ploeh.dk/), explains concepts that are not commonly blogged about with C#.
+- **Podcasts**
+    - [.NET Rocks!](https://www.dotnetrocks.com/)
+    - [Rockin' the Code World with Dot Net Dave](https://www.c-sharpcorner.com/live/rockin-the-code-world-with-dotnetdave)
+    - [The Modern .NET Show](https://dotnetcore.show/)
     
 - **Other** [.NET Content creators](https://www.wearedotnet.io/)
 
