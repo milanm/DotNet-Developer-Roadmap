@@ -87,6 +87,7 @@ But also **.NET libraries and APIs** for:
 - [Learn.NET official Microsoft tutorials](https://dotnet.microsoft.com/en-us/learn)
 - [Dot Net Perls](https://www.dotnetperls.com/s#c#) - Many code examples in C#
 - [Become a Full-stack .NET Developer - Advanced Topics](https://www.pluralsight.com/courses/full-stack-dot-net-developer)
+- [C# language specification - ECMA-334](https://www.ecma-international.org/publications-and-standards/standards/ecma-334/)
 - Advanced concepts:
     - [Async/Await](https://devblogs.microsoft.com/dotnet/how-async-await-really-works/) by Stephen Toub
     - [Threading in C#](https://www.albahari.com/threading/) by Joseph Albahari
