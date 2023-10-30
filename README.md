@@ -525,6 +525,20 @@ Security plays an essential role in application development. The most critical a
     
 - **Other** [.NET Content creators](https://www.wearedotnet.io/)
 
+## Tools
+
+- [Git](https://github.com/git-guides/install-git) and some [GUI clients](https://www.hostinger.com/tutorials/best-git-gui-clients/) - Distibuted source control system.
+- [Visual Studio](https://visualstudio.microsoft.com/) - Main code editor for .NET projects.
+- [Visual Studio Code](https://code.visualstudio.com/) - Lightweight code editor for different tech stacks, including .NET.
+- [Rider](https://www.jetbrains.com/rider/) - Cross-Platform .NET IDE from JetBrains.
+- [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) / [Azure Data Studio](https://azure.microsoft.com/en-us/products/data-studio/) - IDE for managing any SQL infrastructure, from SQL Server to Azure SQL Database.
+- [LINQPad](https://www.linqpad.net/) - interactively query databases with LINQ.
+- [ReSharper](https://www.jetbrains.com/resharper/) - rapid refactoring.
+- [.NET Reflector](https://www.red-gate.com/products/reflector/) - .NET decompiler.
+- [Postman](https://www.postman.com/) - platform for testing APIs.
+- [NDepend](https://www.ndepend.com/) - static code analyzer.
+- [NCrunch for Visual Studio](https://www.ncrunch.net/) - enables developers to run tests in the background as they write code.
+
 ## Wrap Up
 
 If you think the roadmap can be improved, please open a PR with any updates and submit any issues. Also, I will continue to improve this, so you should start this repository, too.
