@@ -501,20 +501,20 @@ Security plays an essential role in application development. The most critical a
     - [The Morning Dew](https://www.alvinashcraft.com/), aggregator of different info about .NET world, by Alvin Ashcraft.
     - [You’ve Been Haacked](https://haacked.com/), by Phil Haack.
     - [Eric Lippert's blog](https://ericlippert.com/), who worked on C# compiler team.
-    - [Steve Smith](https://ardalis.com/)
-    - [Andrew Lock](https://andrewlock.net/) – Senior Engineer at Datadog
-    - [Scott Hanselman](https://www.hanselman.com/blog/) - Partner Program Manager at Microsoft
-    - [Rick Strahl's Web Log](https://weblog.west-wind.com/)
+    - [Steve Smith](https://ardalis.com/), who focus on code qualiy and DDD.
+    - [Andrew Lock](https://andrewlock.net/), Senior Engineer at Datadog
+    - [Scott Hanselman](https://www.hanselman.com/blog/), Partner Program Manager at Microsoft
+    - [Rick Strahl's Web Log](https://weblog.west-wind.com/), focus on web and desktop apps in .NET.
     - [Adam Sitnik](https://adamsitnik.com/), an expert on .NET Performance and Reliability.
     - [Jimmy Bogard](https://www.jimmybogard.com/), creator of AutoMapper.
     - [Vladimir Khorikov](https://enterprisecraftsmanship.com/), and expert in Testing.
     - [Ayende @ Rahien](https://ayende.com/blog/), written by Oren Eini, creator of RavenDB.
-    - [Maarten Balliauw](https://blog.maartenballiauw.be/)
+    - [Maarten Balliauw](https://blog.maartenballiauw.be/), Developer Advocate at JetBrains.
+    - [Khalid Abuhakmeh’s Blog](https://khalidabuhakmeh.com/), Developer Advocate at JetBrains.
     - [Stephen Cleary](https://blog.stephencleary.com/), the author of "Concurrency in C# Cookbook"
-    - [Khalid Abuhakmeh’s Blog](https://khalidabuhakmeh.com/)
     - [Scott Brady](https://www.scottbrady91.com/articles), an expert on OAuth and web security.
     - [Jiří Činčura](https://www.tabsoverspaces.com/), a project lead for ADO.NET provider for Firebird DB.
-    - [Coding Militia](https://blog.codingmilitia.com/)
+    - [Coding Militia](https://blog.codingmilitia.com/), by João Antunes (Microsoft MVP).
     - [Michael Shpilt](https://michaelscodingspot.com/), a software developer working at Microsoft
     - [Mark Seemann](https://blog.ploeh.dk/), explains concepts that are not commonly blogged about with C#.
 - **Podcasts**
