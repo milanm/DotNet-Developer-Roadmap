@@ -164,7 +164,7 @@ But also:
 - Learn [SOLID](https://www.pluralsight.com/courses/principles-oo-design) principles of OO Design in depth.
 - Learn [Fundamentals of Software Architectures](https://amzn.to/3rEtJWh)
 - Learn [Microservices](https://microservices.io/) and [DAPR](https://dapr.io/)
-- Learn [Domain-Driven Design](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design)
+- Learn [Domain-Driven Design](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design) or from [the book](https://amzn.to/49jl0tm)
 
 ### 3. ASP.NET Core 
 
