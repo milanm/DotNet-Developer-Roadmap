@@ -14,6 +14,12 @@ If you like or are using this project to learn or start your solution, please gi
 
 ## Roadmap (by seniority level)
 
+Note that by seniority level, it means:
+
+- **Junior**: Basic concepts
+- **Medior**: Advanced concepts
+- **Senior**: Expert concepts
+
 ![Roadmap](NET%20Roadmap.png)
 
 ## PDF version
@@ -133,6 +139,7 @@ But also:
 - Law of Demeter (LoD) or Principle of least knowledge
 - Composition over Inheritance
 - The principle of least astonishment
+- Software architecture styles and patterns (MVC, MVP)
 
 **Resources**:
 
@@ -157,6 +164,7 @@ But also:
 - Learn [SOLID](https://www.pluralsight.com/courses/principles-oo-design) principles of OO Design in depth.
 - Learn [Fundamentals of Software Architectures](https://amzn.to/3rEtJWh)
 - Learn [Microservices](https://microservices.io/) and [DAPR](https://dapr.io/)
+- Learn [Domain-Driven Design](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design)
 
 ### 3. ASP.NET Core 
 
@@ -167,7 +175,6 @@ Here, you also need to know **web application fundamentals**, such as:
 - HTML, CSS, and JavaScript for front-end development
 - HTTP protocols, request/response model, and RESTful APIs
 - Routing, middleware, authentication, and authorization
-- Model-View-Controller (MVC) and Razor Pages patterns
 
 **Resources**:
 
@@ -417,7 +424,7 @@ Here you need to know how to:
 
 ### 18. NET Libraries
 
-Some useful .NET libraries:
+Some useful .NET libraries. Note that not all libraries will be used by everyone, it mainly depends on a project you work on.
 
 - **[MediatR](https://github.com/jbogard/MediatR)** - Mediator pattern implementation in .NET
 - **[Polly](https://github.com/App-vNext/Polly)** - Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
