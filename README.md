@@ -61,6 +61,11 @@ Download [PDF version](NET%20Roadmap.pdf).
     - [Performance best practices](#performance-best-practices-1)
   - [Security and Cryptography](#security-and-cryptography)
 - [Additional learning resources](#additional-learning-resources)
+  - [Books](#books)
+  - [YouTube Channels](#youtube-channels)
+  - [Blogs](#blogs)
+  - [Podcasts](#podcasts)
+  - [Other](#other-net-content-creators)
 - [Tools](#tools)
 
 ## Understanding the .NET ecosystem
@@ -544,48 +549,56 @@ Security plays an essential role in application development. The most critical a
 
 - [Awesome .NET!](https://github.com/quozd/awesome-dotnet) - A collection of awesome .NET libraries, tools, frameworks, and software.
 - [Microsoft .NET Architecture Guides](https://dotnet.microsoft.com/en-us/learn/dotnet/architecture-guides)
-- **Books** 
-    - [Learn C# in One Day and Learn It Well](https://amzn.to/3Qld3fT) - the best for beginners
-    - [C# in Depth: Fourth Edition](https://amzn.to/3ZPcZbq) by Jon Skeet - the best for intermediate
-    - [Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming](https://amzn.to/490EMtu) - the best for advanced
-    - [The C# Yellow](http://www.csharpcourse.com/) (free) - the best book overall
-- **YouTube Channels**
-    - [IAmTimCorey](https://www.youtube.com/user/IAmTimCorey) 
-    - [Programming with Mosh](https://www.youtube.com/user/programmingwithmosh) 
-    - [Nick Chapsas](https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg) 
-    - [Milan Jovanovic](https://www.youtube.com/@MilanJovanovicTech) 
-    - [Zoran Horvat](https://www.youtube.com/@zoran-horvat) 
-    - [CodeOpinion](https://www.youtube.com/watch?v=_rgH0Kb9Bis), by Derek Comartin
-    - freeCodeCamp
-        - [C# Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=GhQdlIFylQ8) (3h)
-        - [Advanced C# Programming Course](https://www.youtube.com/watch?v=YT8s-90oDC0) (15h)
-- **Blogs**
-    - Official [.NET Blog](https://devblogs.microsoft.com/dotnet/)
-    - [The Morning Dew](https://www.alvinashcraft.com/), aggregator of different info about .NET world, by Alvin Ashcraft.
-    - [You’ve Been Haacked](https://haacked.com/), by Phil Haack.
-    - [Eric Lippert's blog](https://ericlippert.com/), who worked on C# compiler team.
-    - [Steve Smith](https://ardalis.com/), who focus on code qualiy and DDD.
-    - [Andrew Lock](https://andrewlock.net/), Senior Engineer at Datadog
-    - [Scott Hanselman](https://www.hanselman.com/blog/), Partner Program Manager at Microsoft
-    - [Rick Strahl's Web Log](https://weblog.west-wind.com/), focus on web and desktop apps in .NET.
-    - [Adam Sitnik](https://adamsitnik.com/), an expert on .NET Performance and Reliability.
-    - [Jimmy Bogard](https://www.jimmybogard.com/), creator of AutoMapper.
-    - [Vladimir Khorikov](https://enterprisecraftsmanship.com/), and expert in Testing.
-    - [Ayende @ Rahien](https://ayende.com/blog/), written by Oren Eini, creator of RavenDB.
-    - [Maarten Balliauw](https://blog.maartenballiauw.be/), Developer Advocate at JetBrains.
-    - [Khalid Abuhakmeh’s Blog](https://khalidabuhakmeh.com/), Developer Advocate at JetBrains.
-    - [Stephen Cleary](https://blog.stephencleary.com/), the author of "Concurrency in C# Cookbook"
-    - [Scott Brady](https://www.scottbrady91.com/articles), an expert on OAuth and web security.
-    - [Jiří Činčura](https://www.tabsoverspaces.com/), a project lead for ADO.NET provider for Firebird DB.
-    - [Coding Militia](https://blog.codingmilitia.com/), by João Antunes (Microsoft MVP).
-    - [Michael Shpilt](https://michaelscodingspot.com/), a software developer working at Microsoft
-    - [Mark Seemann](https://blog.ploeh.dk/), explains concepts that are not commonly blogged about with C#.
-- **Podcasts**
-    - [.NET Rocks!](https://www.dotnetrocks.com/)
-    - [Rockin' the Code World with Dot Net Dave](https://www.c-sharpcorner.com/live/rockin-the-code-world-with-dotnetdave)
-    - [The Modern .NET Show](https://dotnetcore.show/)
+
+### Books
+
+- [Learn C# in One Day and Learn It Well](https://amzn.to/3Qld3fT) - the best for beginners
+- [C# in Depth: Fourth Edition](https://amzn.to/3ZPcZbq) by Jon Skeet - the best for intermediate
+- [Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming](https://amzn.to/490EMtu) - the best for advanced
+- [The C# Yellow](http://www.csharpcourse.com/) (free) - the best book overall
+
+### YouTube Channels
+
+- [IAmTimCorey](https://www.youtube.com/user/IAmTimCorey) 
+- [Programming with Mosh](https://www.youtube.com/user/programmingwithmosh) 
+- [Nick Chapsas](https://www.youtube.com/channel/UCrkPsvLGln62OMZRO6K-llg) 
+- [Milan Jovanovic](https://www.youtube.com/@MilanJovanovicTech) 
+- [Zoran Horvat](https://www.youtube.com/@zoran-horvat) 
+- [CodeOpinion](https://www.youtube.com/watch?v=_rgH0Kb9Bis), by Derek Comartin
+- freeCodeCamp
+  - [C# Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=GhQdlIFylQ8) (3h)
+  - [Advanced C# Programming Course](https://www.youtube.com/watch?v=YT8s-90oDC0) (15h)
+
+### Blogs
+
+- Official [.NET Blog](https://devblogs.microsoft.com/dotnet/)
+- [The Morning Dew](https://www.alvinashcraft.com/), aggregator of different info about .NET world, by Alvin Ashcraft.
+- [You’ve Been Haacked](https://haacked.com/), by Phil Haack.
+- [Eric Lippert's blog](https://ericlippert.com/), who worked on C# compiler team.
+- [Steve Smith](https://ardalis.com/), who focus on code qualiy and DDD.
+- [Andrew Lock](https://andrewlock.net/), Senior Engineer at Datadog
+- [Scott Hanselman](https://www.hanselman.com/blog/), Partner Program Manager at Microsoft
+- [Rick Strahl's Web Log](https://weblog.west-wind.com/), focus on web and desktop apps in .NET.
+- [Adam Sitnik](https://adamsitnik.com/), an expert on .NET Performance and Reliability.
+- [Jimmy Bogard](https://www.jimmybogard.com/), creator of AutoMapper.
+- [Vladimir Khorikov](https://enterprisecraftsmanship.com/), and expert in Testing.
+- [Ayende @ Rahien](https://ayende.com/blog/), written by Oren Eini, creator of RavenDB.
+- [Maarten Balliauw](https://blog.maartenballiauw.be/), Developer Advocate at JetBrains.
+- [Khalid Abuhakmeh’s Blog](https://khalidabuhakmeh.com/), Developer Advocate at JetBrains.
+- [Stephen Cleary](https://blog.stephencleary.com/), the author of "Concurrency in C# Cookbook"
+- [Scott Brady](https://www.scottbrady91.com/articles), an expert on OAuth and web security.
+- [Jiří Činčura](https://www.tabsoverspaces.com/), a project lead for ADO.NET provider for Firebird DB.
+- [Coding Militia](https://blog.codingmilitia.com/), by João Antunes (Microsoft MVP).
+- [Michael Shpilt](https://michaelscodingspot.com/), a software developer working at Microsoft
+- [Mark Seemann](https://blog.ploeh.dk/), explains concepts that are not commonly blogged about with C#.
+
+### Podcasts
+
+  - [.NET Rocks!](https://www.dotnetrocks.com/)
+  - [Rockin' the Code World with Dot Net Dave](https://www.c-sharpcorner.com/live/rockin-the-code-world-with-dotnetdave)
+  - [The Modern .NET Show](https://dotnetcore.show/)
     
-- **Other** [.NET Content creators](https://www.wearedotnet.io/)
+### Other [.NET Content creators](https://www.wearedotnet.io/)
 
 ## Tools
 
