@@ -26,6 +26,43 @@ Note that by seniority level, it means:
 
 Download [PDF version](NET%20Roadmap.pdf).
 
+
+## Table of Contents
+
+- [Understanding the .NET ecosystem](#understanding-the-net-ecosystem)
+- [.NET runtimes](#net-runtimes)
+  - [.NET Framework](#net-framework)
+  - [.NET Core](#net-core)
+  - [The One .NET - .NET 5](#the-one-net---net-5)
+  - [The current - .NET 8](#the-current---net-8)
+  - [.NET Standard](#net-standard)
+- [Learning resources](#learning-resources)
+  - [1. C#](#1-c)
+  - [2. General Development Skills](#2-general-development-skills)
+  - [3. ASP.NET Core](#3-aspnet-core)
+  - [4. Client-Side .NET](#4-client-side-net)
+  - [5. Databases](#5-databases)
+  - [6. ORM](#6-orm)
+  - [7. Caching](#7-caching)
+  - [8. Logging](#8-logging)
+  - [9. Real-time communication](#9-real-time-communication)
+  - [10. Background tasks](#10-background-tasks)
+  - [11. Object Mapping](#11-object-mapping)
+  - [12. Testing](#12-testing)
+  - [13. Monitoring \& Telemetry](#13-monitoring--telemetry)
+  - [14. Messaging](#14-messaging)
+  - [15. Containerization](#15-containerization)
+  - [16. Cloud](#16-cloud)
+  - [17. Continuous Integration \& Delivery (CI/CD)](#17-continuous-integration--delivery-cicd)
+  - [18. NET Libraries](#18-net-libraries)
+- [Additional considerations](#additional-considerations)
+  - [Performance best practices](#performance-best-practices)
+    - [Profiling and diagnostics](#profiling-and-diagnostics)
+    - [Performance best practices](#performance-best-practices-1)
+  - [Security and Cryptography](#security-and-cryptography)
+- [Additional learning resources](#additional-learning-resources)
+- [Tools](#tools)
+
 ## Understanding the .NET ecosystem
 
 Before going into specifics, you need to have a solid understanding of the **.NET Ecosystem**. Here are a few that you should understand:
