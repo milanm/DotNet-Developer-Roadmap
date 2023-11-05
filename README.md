@@ -186,7 +186,7 @@ But also:
 **Resources**:
 
 - Learn [Git](https://newsletter.techworld-with-milan.com/p/how-to-learn-git)
-- Learn [HTTP(S) protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- Learn [HTTP(S) protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) and [What happens when you type a URL into your browser](https://newsletter.techworld-with-milan.com/p/what-happens-when-you-type-a-url)
 - Learn [Data Structures & Algorithms](https://amzn.to/3LTsZ6o)
 - Learn [Clean Code](https://amzn.to/3Qdj91J)
 - Learn [Refactoring](https://www.pluralsight.com/courses/refactoring-fundamentals) fundamentals
@@ -396,7 +396,7 @@ Here you need to know:
      - [K6](https://github.com/grafana/k6)
      - [JMeter](https://github.com/apache/jmeter)
 
-### 13. Monitoring & Telemetry      
+### 13. Observability   
 
 These tools provide real-time insights into your application's performance, user behavior, and error rates, enabling you to address issues before they escalate into full-blown problems proactively.
 
@@ -459,6 +459,7 @@ Here you need to know how to:
 
 **Resources**:
 
+- [DevOps concepts](https://newsletter.techworld-with-milan.com/p/devops-roadmap-2023)
 - [GitHub Actions](https://github.com/features/actions)
 - [Gitlab CI](https://docs.gitlab.com/ee/ci)
 - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
