@@ -595,6 +595,8 @@ Security plays an essential role in application development. The most critical a
 - [Coding Militia](https://blog.codingmilitia.com/), by João Antunes (Microsoft MVP).
 - [Michael Shpilt](https://michaelscodingspot.com/), a software developer working at Microsoft
 - [Mark Seemann](https://blog.ploeh.dk/), explains concepts that are not commonly blogged about with C#.
+- [Steven Giesel](https://steven-giesel.com/), Microsoft MVP
+- [Code Maze Weekly](https://code-maze.com/), articles on .NET, weekly.
 
 ### Podcasts
 
