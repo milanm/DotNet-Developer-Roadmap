@@ -622,7 +622,7 @@ Security plays an essential role in application development. The most critical a
 
 ## Wrap Up
 
-If you think the roadmap can be improved, please open a PR with any updates and submit any issues. Also, I will continue to improve this, so you should start this repository, too.
+If you think the roadmap can be improved, please open a PR with any updates and submit any issues. Also, I will continue to improve this, so you should star this repository, too.
 
 ## Contribution
 
