@@ -120,6 +120,10 @@ C# is a programming language developed by Microsoft. It's a go-to choice for bui
 
 The latest version is **[C# 12](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12)**, released in November 2023.
 
+Check the full C# timeline:
+
+![C# Timeline](csharp-timeline.png)
+
 You need to understand different **C# language features**, such as:
 
 - Object-oriented programming (classes, objects, interfaces, inheritance, polymorphism)
