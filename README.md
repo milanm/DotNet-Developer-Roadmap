@@ -22,8 +22,6 @@ Note that by seniority level, it means:
 
 ![Roadmap](NET%20Roadmap.png)
 
-## PDF version
-
 Download [PDF version](NET%20Roadmap.pdf).
 
 ## Minimalistic version
