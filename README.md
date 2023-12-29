@@ -26,7 +26,7 @@ Download [PDF version](NET%20Roadmap.pdf).
 
 ## Minimalistic version
 
-Below you can find a bare minimum version every junior .NET developer needs to know, with learning materials included.
+Below you can find a bare minimum version every junior .NET developer needs to know, with learning materials included and clickable in the PDF version.
 
 ![Roadmap](NET%20Developer%20Roadmap%202024.%20Minimal.png)
 
