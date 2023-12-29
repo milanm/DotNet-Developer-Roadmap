@@ -1,4 +1,4 @@
-# .NET Developer Roadmap 2023.
+# .NET Developer Roadmap 2024.
 
 This is a step-by-step guide to becoming a .NET Engineer, with links to relevant learning resources.
 
@@ -25,6 +25,14 @@ Note that by seniority level, it means:
 ## PDF version
 
 Download [PDF version](NET%20Roadmap.pdf).
+
+## Minimalistic version
+
+Below you can find a bare minimum version every junior .NET developer needs to know, with learning materials included.
+
+![Roadmap](NET%20Developer%20Roadmap%202024.%20Minimal.png)
+
+Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
 
 
 ## Table of Contents
@@ -154,14 +162,14 @@ But also **.NET libraries and APIs** for:
 - [Udemy C# for Beginners - Coding From Scratch (.NET Core)](https://www.udemy.com/course/c-and-net-core-for-beginners/)
 - [C# Basics for Beginners: Learn C# Fundamentals by Coding](https://www.udemy.com/course/csharp-tutorial-for-beginners/)
 - Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
-- [Learn.NET official Microsoft tutorials](https://dotnet.microsoft.com/en-us/learn)
+- [NuGet](https://learn.microsoft.com/en-us/nuget/what-is-nuget) package manager
 - [Dot Net Perls](https://www.dotnetperls.com/s#c#) - Many code examples in C#
-- [Become a Full-stack .NET Developer - Advanced Topics](https://www.pluralsight.com/courses/full-stack-dot-net-developer)
-- [C# language specification - ECMA-334](https://www.ecma-international.org/publications-and-standards/standards/ecma-334/)
 - Advanced concepts:
+    - [Become a Full-stack .NET Developer - Advanced Topics](https://www.pluralsight.com/courses/full-stack-dot-net-developer)
     - [Async/Await](https://devblogs.microsoft.com/dotnet/how-async-await-really-works/) by Stephen Toub
     - [Threading in C#](https://www.albahari.com/threading/) by Joseph Albahari
     - [Concurrency](https://www.codeguru.com/csharp/thread-synchronization-c-sharp/) and [Locking](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/lock)
+- [C# language specification - ECMA-334](https://www.ecma-international.org/publications-and-standards/standards/ecma-334/)
 
 
 ### 2. General Development Skills
@@ -190,7 +198,6 @@ But also:
 **Resources**:
 
 - Learn [Git](https://newsletter.techworld-with-milan.com/p/how-to-learn-git)
-- Learn [HTTP(S) protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) and [What happens when you type a URL into your browser](https://newsletter.techworld-with-milan.com/p/what-happens-when-you-type-a-url)
 - Learn [Data Structures & Algorithms](https://amzn.to/3LTsZ6o)
 - Learn [Clean Code](https://amzn.to/3Qdj91J)
 - Learn [Refactoring](https://www.pluralsight.com/courses/refactoring-fundamentals) fundamentals
@@ -208,43 +215,55 @@ But also:
     - Observer
 - Learn [Main software design](https://newsletter.techworld-with-milan.com/p/main-software-design-principles-you) principles
 - Learn [SOLID](https://www.pluralsight.com/courses/principles-oo-design) principles of OO Design in depth.
-- Learn [Fundamentals of Software Architectures](https://amzn.to/3rEtJWh)
-- Learn [Microservices](https://microservices.io/) and [DAPR](https://dapr.io/)
-- Learn [Domain-Driven Design](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design) or from [the book](https://amzn.to/49jl0tm)
+- Software Archtitecure Styles
+    - Learn [Fundamentals of Software Architectures](https://amzn.to/3rEtJWh)
+    - Learn [Layered](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html) architecture style
+    - Learn [Microservices](https://microservices.io/) and [DAPR](https://dapr.io/)
+    - Learn [Domain-Driven Design](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design) or from [the book](https://amzn.to/49jl0tm)
 
 ### 3. ASP.NET Core 
 
 It is a cross-platform, high-performance framework developed by Microsoft for building web apps, APIs, and microservices. You can also run your apps on Windows, Linux, or macOS. It's engineered for flexibility and scalability with features like built-in dependency injection and a robust configuration system.
 
-Here, you also need to know **web application fundamentals**, such as:
+Here, you also need to know **web development fundamentals**, such as:
 
 - HTML, CSS, and JavaScript for front-end development
-- HTTP protocols, request/response model, and RESTful APIs
+- HTTP protocols, DNS, request/response model, and RESTful APIs
 - Routing, middleware, authentication, and authorization
 
 **Resources**:
 
-- [ASP.NET Core Fundamentals by Scott Alen](https://www.pluralsight.com/courses/aspnet-core-fundamentals) course
+- Web Basics:
+    - [How Internet works](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work)
+    - [What happens when you type a URL into your browser?](https://newsletter.techworld-with-milan.com/p/what-happens-when-you-type-a-url)
+    - [How DNS works](https://newsletter.techworld-with-milan.com/i/135973327/how-dns-works)
+    - [HTTP(S) protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) 
+- [ASP.NET MVC](https://dotnet.microsoft.com/en-us/apps/aspnet/mvc)
 - [ASP.NET MVC 5 Fundamentals by Scott Alen](https://www.pluralsight.com/courses/aspdotnet-mvc5-fundamentals) course
-- [Advanced ASP.NET Core 3.1 MVC](https://www.udemy.com/course/azure-devops-for-net-developer/) Udemy course
-- [Pro ASP.NET Core 6](https://amzn.to/3RV3rcV) book
+- [ASP.NET Core Fundamentals by Scott Alen](https://www.pluralsight.com/courses/aspnet-core-fundamentals) course
+- [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware)
 - APIs
-    - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
-    - [GraphQL](https://graphql.org/)
-    - [gRPC](https://grpc.io/)
+    - [Web API](https://dotnet.microsoft.com/en-us/apps/aspnet/apis)
+    - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-8.0)
+    - Protocols
+        - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
+        - [GraphQL](https://graphql.org/)
+        - [gRPC](https://grpc.io/)
+    - [REST API Design Best Practices](https://newsletter.techworld-with-milan.com/p/rest-api-design-best-practices)
+    - [Understanding REST Headers](https://newsletter.techworld-with-milan.com/p/understanding-rest-headers)
 - Dependency Injection
     - [Life Cycles](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
     - [Microsoft Extensions Dependency Injection](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection?view=dotnet-plat-ext-7.0)
     - [Autofac](https://autofac.org/)
     - [Scrutor](https://github.com/khellang/Scrutor)
 - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
-- [Middlewares](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware)
 - [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
-- [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication) or [this Reddit thread](https://www.reddit.com/r/dotnet/comments/we9qx8/a_comprehensive_overview_of_authentication_in/)
-- [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
-- [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
-- [Auth0](https://auth0.com)
-- [OIDC](https://openid.net/connect)
+- Security
+    - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication) or [this Reddit thread](https://www.reddit.com/r/dotnet/comments/we9qx8/a_comprehensive_overview_of_authentication_in/)
+    - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
+    - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
+    - [Auth0](https://auth0.com)
+    - [OIDC](https://openid.net/connect)
 
 ### 4. Client-Side .NET
 
@@ -279,10 +298,11 @@ Here, you need to know:
   - [PostgreSQL](https://www.postgresql.org)
   - [MariaDB](https://mariadb.org)
   - [MySQL](https://www.mysql.com)
+  - [Azure SQL](https://azure.microsoft.com/en-us/products/azure-sql/database)
 - NoSQL
   - [MongoDB](https://docs.microsoft.com/aspnet/core/tutorials/first-mongo-app)
   - [RavenDB](https://github.com/ravendb/ravendb)
-  - [CosmosDB](https://docs.microsoft.com/azure/cosmos-db)
+  - [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db)
 - Tools:
   - [SQLFlow](https://sqlflow.gudusoft.com/#/) - a great tool to visualize SQL queries.
 
@@ -346,7 +366,7 @@ These services run tasks in the background, freeing up your application to focus
 
 **Resources**:
 
-- [Native BackgroundService](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
+- [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
 - [HangFire](https://github.com/HangfireIO/Hangfire)
 - [Quartz](https://github.com/quartznet/quartznet)
 
@@ -427,15 +447,22 @@ Messaging systems act as a middleman between different parts of your system, all
 - [MassTransit](https://github.com/MassTransit/MassTransit)
 - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
 - [NServiceBus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/build-message-driven-apps-nservicebus?tabs=Sender)
+- [Apache Kafka](https://kafka.apache.org/)
 
 ### 15. Containerization
 
 Container solutions encapsulate your .NET application, libraries, and runtime into isolated containers. This enables consistency across multiple development and production environments, resolving dependency issues. With features like layered file systems, you can easily manage container images for ASP.NET, .NET Core, or other .NET services, optimizing build times and resource utilization.
 
 **Resources**:
-
-- [Docker](https://www.docker.com)
-- [Kubernetes](https://kubernetes.io)
+- Containers
+    - [Docker](https://www.docker.com)
+    - [Docker Compose](https://docs.docker.com/compose/)
+    - [Docker Hub](https://hub.docker.com/)
+    - [Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro)
+- Orchestration
+    - [Kubernetes](https://kubernetes.io)
+    - [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service)
+    - [Helm](https://helm.sh/)
 
 ### 16. Cloud
 
@@ -464,12 +491,13 @@ Here you need to know how to:
 **Resources**:
 
 - [DevOps concepts](https://newsletter.techworld-with-milan.com/p/devops-roadmap-2023)
-- [GitHub Actions](https://github.com/features/actions)
-- [Gitlab CI](https://docs.gitlab.com/ee/ci)
-- [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
-- [Travis CI](https://travis-ci.org)
-- [Jenkins](https://www.jenkins.io)
-- [TeamCity](https://www.jetbrains.com/teamcity)
+- Services:
+    - [GitHub Actions](https://github.com/features/actions)
+    - [Gitlab CI](https://docs.gitlab.com/ee/ci)
+    - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
+    - [Travis CI](https://travis-ci.org)
+    - [Jenkins](https://www.jenkins.io)
+    - [TeamCity](https://www.jetbrains.com/teamcity)
 
 ### 18. NET Libraries
 
