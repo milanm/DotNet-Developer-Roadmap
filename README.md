@@ -466,6 +466,8 @@ Messaging systems act as a middleman between different parts of your system, all
 - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
 - [MassTransit](https://github.com/MassTransit/MassTransit)
 - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
+- [Azure Event Hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-about)
+- [Azure Event Grid](https://docs.microsoft.com/azure/event-grid/overview)
 - [NServiceBus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/build-message-driven-apps-nservicebus?tabs=Sender)
 - [Apache Kafka](https://kafka.apache.org/)
 
