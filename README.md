@@ -454,6 +454,8 @@ These tools provide real-time insights into your application's performance, user
 - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
 - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-dotnet)
 - [Jaeger](https://www.jaegertracing.io/)
+- [Azure Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
+- [Azure Log Analytics](https://docs.microsoft.com/azure/azure-monitor/logs/log-analytics-overview)
 
 ### 14. Messaging
 
