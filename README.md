@@ -283,10 +283,17 @@ If you want to build UIs in .NET, you will need these frameworks. Razor is a tem
 - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 - [.NET MAUI](https://github.com/dotnet/maui)
 - [WPF](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-8.0)
-- [UWP](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide)
 - [WinUI](https://docs.microsoft.com/en-us/windows/apps/winui/winui3/)
 - [Uno Platform](https://platform.uno/)
 - [Avalonia](https://avaloniaui.net/)
+
+
+> NOTES
+>
+> [UWP](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) and [WinForms](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/overview/?view=netdesktop-8.0) are also used client-side .NET technologies but they are more in their end of life.
+> 
+> UWP is meant to be replaced by MAUI/WinUI.
+> There is no clear successor of Winforms. Theoretically speaking, it should be WPF but it is also in the process of being replaced by MAUI/WinUI.
 
 ### 5. Databases
 
