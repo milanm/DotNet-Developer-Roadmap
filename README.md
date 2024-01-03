@@ -281,7 +281,6 @@ If you want to build UIs in .NET, you will need these frameworks. Razor is a tem
 - [WinUI](https://docs.microsoft.com/en-us/windows/apps/winui/winui3/)
 - [Uno Platform](https://platform.uno/)
 - [Avalonia](https://avaloniaui.net/)
-
 - Note: [UWP](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) and [WinForms](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/overview/?view=netdesktop-8.0) are also used client-side .NET technologies but they are more in their end of life.
 
 ### 5. Databases
