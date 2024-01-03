@@ -55,7 +55,7 @@ Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
   - [10. Background tasks](#10-background-tasks)
   - [11. Object Mapping](#11-object-mapping)
   - [12. Testing](#12-testing)
-  - [13. Monitoring \& Telemetry](#13-monitoring--telemetry)
+  - [13. Observability](#13-observability)
   - [14. Messaging](#14-messaging)
   - [15. Containerization](#15-containerization)
   - [16. Cloud](#16-cloud)
