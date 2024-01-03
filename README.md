@@ -282,7 +282,7 @@ If you want to build UIs in .NET, you will need these frameworks. Razor is a tem
 - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
 - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 - [.NET MAUI](https://github.com/dotnet/maui)
-- [WPF](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-7.0)
+- [WPF](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-8.0)
 - [UWP](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide)
 - [WinUI](https://docs.microsoft.com/en-us/windows/apps/winui/winui3/)
 - [Uno Platform](https://platform.uno/)
