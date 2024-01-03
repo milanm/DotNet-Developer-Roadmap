@@ -485,6 +485,7 @@ Container solutions encapsulate your .NET application, libraries, and runtime in
     - [Kubernetes](https://kubernetes.io)
     - [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service)
     - [Helm](https://helm.sh/)
+    - [Azure Container Apps](https://docs.microsoft.com/en-us/azure/container-apps/overview)
 
 ### 16. Cloud
 
