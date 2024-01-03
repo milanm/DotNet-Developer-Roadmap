@@ -35,44 +35,54 @@ Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
 
 ## Table of Contents
 
-- [Understanding the .NET ecosystem](#understanding-the-net-ecosystem)
+- [.NET Developer Roadmap 2024.](#net-developer-roadmap-2024)
+  - [Disclaimer](#disclaimer)
+  - [Give a Star! :star:](#give-a-star-star)
+  - [Roadmap (by seniority level)](#roadmap-by-seniority-level)
+  - [Minimalistic version](#minimalistic-version)
+  - [Table of Contents](#table-of-contents)
+  - [Understanding the .NET ecosystem](#understanding-the-net-ecosystem)
   - [.NET runtimes](#net-runtimes)
     - [.NET Framework](#net-framework)
     - [.NET Core](#net-core)
     - [The One .NET - .NET 5](#the-one-net---net-5)
     - [The current - .NET 8](#the-current---net-8)
   - [.NET Standard](#net-standard)
-- [Learning resources](#learning-resources)
-  - [1. C#](#1-c)
-  - [2. General Development Skills](#2-general-development-skills)
-  - [3. ASP.NET Core](#3-aspnet-core)
-  - [4. Client-Side .NET](#4-client-side-net)
-  - [5. Databases](#5-databases)
-  - [6. ORM](#6-orm)
-  - [7. Caching](#7-caching)
-  - [8. Logging](#8-logging)
-  - [9. Real-time communication](#9-real-time-communication)
-  - [10. Background tasks](#10-background-tasks)
-  - [11. Object Mapping](#11-object-mapping)
-  - [12. Testing](#12-testing)
-  - [13. Monitoring \& Telemetry](#13-monitoring--telemetry)
-  - [14. Messaging](#14-messaging)
-  - [15. Containerization](#15-containerization)
-  - [16. Cloud](#16-cloud)
-  - [17. Continuous Integration \& Delivery (CI/CD)](#17-continuous-integration--delivery-cicd)
-  - [18. NET Libraries](#18-net-libraries)
-- [Additional considerations](#additional-considerations)
-  - [Performance best practices](#performance-best-practices)
-    - [Profiling and diagnostics](#profiling-and-diagnostics)
-    - [Performance best practices](#performance-best-practices-1)
-  - [Security and Cryptography](#security-and-cryptography)
-- [Additional learning resources](#additional-learning-resources)
-  - [Books](#books)
-  - [YouTube Channels](#youtube-channels)
-  - [Blogs](#blogs)
-  - [Podcasts](#podcasts)
-  - [Other](#other-net-content-creators)
-- [Tools](#tools)
+  - [Learning resources](#learning-resources)
+    - [1. C#](#1-c)
+    - [2. General Development Skills](#2-general-development-skills)
+    - [3. ASP.NET Core](#3-aspnet-core)
+    - [4. Client-Side .NET](#4-client-side-net)
+    - [5. Databases](#5-databases)
+    - [6. ORM](#6-orm)
+    - [7. Caching](#7-caching)
+    - [8. Logging](#8-logging)
+    - [9. Real-time communication](#9-real-time-communication)
+    - [10. Background tasks](#10-background-tasks)
+    - [11. Object Mapping](#11-object-mapping)
+    - [12. Testing](#12-testing)
+    - [13. Observability](#13-observability)
+    - [14. Messaging](#14-messaging)
+    - [15. Containerization](#15-containerization)
+    - [16. Cloud](#16-cloud)
+    - [17. Continuous Integration \& Delivery (CI/CD)](#17-continuous-integration--delivery-cicd)
+    - [18. NET Libraries](#18-net-libraries)
+  - [Additional considerations](#additional-considerations)
+    - [Performance best practices](#performance-best-practices)
+      - [Profiling and diagnostics](#profiling-and-diagnostics)
+      - [Performance best practices](#performance-best-practices-1)
+    - [Security and Cryptography](#security-and-cryptography)
+  - [Additional learning resources](#additional-learning-resources)
+    - [Books](#books)
+    - [YouTube Channels](#youtube-channels)
+    - [Blogs](#blogs)
+    - [Podcasts](#podcasts)
+    - [Other .NET Content creators](#other-net-content-creators)
+  - [Tools](#tools)
+  - [Wrap Up](#wrap-up)
+  - [Contribution](#contribution)
+  - [License](#license)
+  - [Author](#author)
 
 ## Understanding the .NET ecosystem
 
@@ -272,8 +282,18 @@ If you want to build UIs in .NET, you will need these frameworks. Razor is a tem
 - [Razor](https://docs.microsoft.com/aspnet/core/mvc/views/razor)
 - [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 - [.NET MAUI](https://github.com/dotnet/maui)
-- [WPF](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-7.0)
+- [WPF](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-8.0)
+- [WinUI](https://docs.microsoft.com/en-us/windows/apps/winui/winui3/)
 - [Uno Platform](https://platform.uno/)
+- [Avalonia](https://avaloniaui.net/)
+
+
+> NOTES
+>
+> [UWP](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) and [WinForms](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/overview/?view=netdesktop-8.0) are also used client-side .NET technologies but they are more in their end of life.
+> 
+> UWP is meant to be replaced by MAUI/WinUI.
+> There is no clear successor of Winforms. Theoretically speaking, it should be WPF but it is also in the process of being replaced by MAUI/WinUI.
 
 ### 5. Databases
 
@@ -434,6 +454,8 @@ These tools provide real-time insights into your application's performance, user
 - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
 - [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-dotnet)
 - [Jaeger](https://www.jaegertracing.io/)
+- [Azure Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
+- [Azure Log Analytics](https://docs.microsoft.com/azure/azure-monitor/logs/log-analytics-overview)
 
 ### 14. Messaging
 
@@ -444,6 +466,8 @@ Messaging systems act as a middleman between different parts of your system, all
 - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
 - [MassTransit](https://github.com/MassTransit/MassTransit)
 - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
+- [Azure Event Hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-about)
+- [Azure Event Grid](https://docs.microsoft.com/azure/event-grid/overview)
 - [NServiceBus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/build-message-driven-apps-nservicebus?tabs=Sender)
 - [Apache Kafka](https://kafka.apache.org/)
 
@@ -461,6 +485,7 @@ Container solutions encapsulate your .NET application, libraries, and runtime in
     - [Kubernetes](https://kubernetes.io)
     - [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service)
     - [Helm](https://helm.sh/)
+    - [Azure Container Apps](https://docs.microsoft.com/en-us/azure/container-apps/overview)
 
 ### 16. Cloud
 
