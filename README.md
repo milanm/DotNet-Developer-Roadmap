@@ -518,7 +518,6 @@ Some useful .NET libraries. Note that not all libraries will be used by everyone
 - **[Polly](https://github.com/App-vNext/Polly)** - Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
 - **[Fluent Validation](https://github.com/JeremySkinner/FluentValidation)** - .NET validation library for building strongly-typed validation rules.
 - **[Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)** - .NET library for benchmarking.
-- **[Newstonsoft.json](https://www.newtonsoft.com/json)** - High-performance JSON framework for .NET.
 - **[Refit](https://github.com/reactiveui/refit)** - Turns your REST API into a live interface.
 - **[YARP](https://microsoft.github.io/reverse-proxy/)** - Reverse proxy server.
 - **[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)** - Swagger tools for documenting API's built on ASP.NET Core.
