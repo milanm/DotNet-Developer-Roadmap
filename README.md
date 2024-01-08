@@ -16,9 +16,9 @@ If you like or are using this project to learn or start your solution, please gi
 
 Note that by seniority level, it means:
 
-- **Junior**: Basic concepts
-- **Medior**: Advanced concepts
-- **Senior**: Expert concepts
+🟣 **Junior**: Basic concepts
+🟤 **Medior**: Advanced concepts
+🔴 **Senior**: Expert concepts
 
 ![Roadmap](NET%20Roadmap.png)
 
