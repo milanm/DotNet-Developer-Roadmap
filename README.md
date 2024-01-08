@@ -356,16 +356,34 @@ Logging captures runtime information, errors, and other crucial data that can he
 - [NLog](https://github.com/NLog/NLog)
 - [Microsoft.Extensions.Logging](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging)
 
-### 9. Real-time communication
+### 9. Communication
 
-Real-time communication technologies, like SignalR in the .NET ecosystem, enable these functionalities by maintaining a constant connection between server and client. They are used in interactive experiences, whether live chat, notifications, or real-time updates.
+In .NET we have three types of communication. Real-time communication, Synchronous, and Asynchronous communication. Real-time communication technologies, like SignalR in the .NET ecosystem, enable these functionalities by maintaining a constant connection between server and client. They are used in interactive experiences, whether live chat, notifications, or real-time updates. Synchronous communication is mainly done by using through HTTP Client, while asynchronous communication is done through different messaging and event-based frameworks and libraries. Messaging systems act as a middleman between different parts of your system, allowing them to communicate without being directly connected. This decouples your components, making scaling, maintaining, and adding new features easier. Event handlers, on the other side, are used for handling events within a single application. They facilitate a publisher-subscriber model where one part of the application can raise an event that other parts can react to.
 
 **Resources**:
 
-- [SignalR Core](https://docs.microsoft.com/aspnet/core/signalr)
-- [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets) 
-- [Socket.IO](https://github.com/doghappy/socket.io-client-csharp)
-
+- Real time communication:
+    - [SignalR Core](https://docs.microsoft.com/aspnet/core/signalr)
+    - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets) 
+    - [Socket.IO](https://github.com/doghappy/socket.io-client-csharp)
+- Synchronous communication: 
+    - [HTTP Client](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-8.0)
+- Asynchronous communication: 
+    - Message brokers:
+         - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
+         - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+         - [ActiveMQ](https://activemq.apache.org/)
+         - [NetMQ](https://netmq.readthedocs.io/en/latest/)
+         - [Apache Kafka](https://kafka.apache.org/)
+     - Message bus:
+         - [MassTransit](https://github.com/MassTransit/MassTransit)
+         - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
+         - [NServiceBus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/build-message-driven-apps-nservicebus?tabs=Sender)
+         - [EasyNetQ](https://easynetq.com/)
+     - Event handlers:
+         - [Azure Event Hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-about)
+         - [Azure Event Grid](https://docs.microsoft.com/azure/event-grid/overview)
+   
 ### 10. Background tasks
 
 These services run tasks in the background, freeing up your application to focus on user interactions. Whether data processing, automated emails, or periodic clean-ups, background services ensure these tasks don't slow down or interrupt the user experience. 
@@ -404,8 +422,8 @@ Here you need to know:
       - [NUnit](https://nunit.org/)
       - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
     - Mocking
-      - [Moq](https://github.com/moq/moq4)
-      - [NSubstitute](https://github.com/nsubstitute/NSubstitute)
+      - [NSubstitute](https://github.com/nsubstitute/NSubstitute) - for new projects
+      - [Moq](https://github.com/moq/moq4) - for old projects [why](https://www.bleepingcomputer.com/news/security/popular-open-source-project-moq-criticized-for-quietly-collecting-data/)
     - Assertion
       - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
       - [Shouldly](https://github.com/shouldly/shouldly)
@@ -445,21 +463,7 @@ These tools provide real-time insights into your application's performance, user
 - [Azure Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
 - [Azure Log Analytics](https://docs.microsoft.com/azure/azure-monitor/logs/log-analytics-overview)
 
-### 14. Messaging
-
-Messaging systems act as a middleman between different parts of your system, allowing them to communicate without being directly connected. This decouples your components, making scaling, maintaining, and adding new features easier. Plus, it improves fault tolerance—so if one part fails, it doesn't bring down the whole system.
-
-**Resources**:
-
-- [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
-- [MassTransit](https://github.com/MassTransit/MassTransit)
-- [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
-- [Azure Event Hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-about)
-- [Azure Event Grid](https://docs.microsoft.com/azure/event-grid/overview)
-- [NServiceBus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/build-message-driven-apps-nservicebus?tabs=Sender)
-- [Apache Kafka](https://kafka.apache.org/)
-
-### 15. Containerization
+### 14. Containerization
 
 Container solutions encapsulate your .NET application, libraries, and runtime into isolated containers. This enables consistency across multiple development and production environments, resolving dependency issues. With features like layered file systems, you can easily manage container images for ASP.NET, .NET Core, or other .NET services, optimizing build times and resource utilization.
 
@@ -475,7 +479,7 @@ Container solutions encapsulate your .NET application, libraries, and runtime in
     - [Helm](https://helm.sh/)
     - [Azure Container Apps](https://docs.microsoft.com/en-us/azure/container-apps/overview)
 
-### 16. Cloud
+### 15. Cloud
 
 Cloud providers provide a layer of APIs to abstract infrastructure and provision it based on security and billing boundaries. The cloud runs on servers in data centers, but the abstractions cleverly give the appearance of interacting with a single "platform" or large application. The ability to quickly provision, configure, and secure resources with cloud providers has been key to the tremendous success and complexity of modern DevOps.
 
@@ -489,7 +493,7 @@ Here, you must know how to manage users and administration, networks, virtual se
 - [Azure](https://azure.microsoft.com/)
 - [Google Cloud](https://cloud.google.com/)
 
-### 17. Continuous Integration & Delivery (CI/CD)
+### 16. Continuous Integration & Delivery (CI/CD)
 
 CI/CD automates the building, testing, and deployment stages into a streamlined, error-resistant pipeline. This means faster releases, bug fixes, and more time to focus on feature development.
 
@@ -510,7 +514,7 @@ Here you need to know how to:
     - [Jenkins](https://www.jenkins.io)
     - [TeamCity](https://www.jetbrains.com/teamcity)
 
-### 18. NET Libraries
+### 17. NET Libraries
 
 Some useful .NET libraries. Note that not all libraries will be used by everyone, it mainly depends on a project you work on.
 
