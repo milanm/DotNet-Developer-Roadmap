@@ -36,12 +36,12 @@ Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
 ## Table of Contents
 
 - [Understanding the .NET ecosystem](#understanding-the-net-ecosystem)
-- [.NET runtimes](#net-runtimes)
-  - [.NET Framework](#net-framework)
-  - [.NET Core](#net-core)
-  - [The One .NET - .NET 5](#the-one-net---net-5)
-  - [The current - .NET 8](#the-current---net-8)
-- [.NET Standard](#net-standard)
+  - [.NET runtimes](#net-runtimes)
+    - [.NET Framework](#net-framework)
+    - [.NET Core](#net-core)
+    - [The One .NET - .NET 5](#the-one-net---net-5)
+    - [The current - .NET 8](#the-current---net-8)
+  - [.NET Standard](#net-standard)
 - [Learning resources](#learning-resources)
   - [1. C#](#1-c)
   - [2. General Development Skills](#2-general-development-skills)
