@@ -73,10 +73,6 @@ Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
       - [Podcasts](#podcasts)
       - [Other .NET Content creators](#other-net-content-creators)
   - [Tools](#tools)
-  - [Wrap Up](#wrap-up)
-  - [Contribution](#contribution)
-  - [License](#license)
-  - [Author](#author)
 
 ## Understanding the .NET ecosystem
 
