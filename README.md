@@ -418,7 +418,7 @@ Here you need to know:
       - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
     - Mocking
       - [NSubstitute](https://github.com/nsubstitute/NSubstitute) - for new projects
-      - [Moq](https://github.com/moq/moq4) - for old projects [why](https://www.bleepingcomputer.com/news/security/popular-open-source-project-moq-criticized-for-quietly-collecting-data/)
+      - [Moq](https://github.com/moq/moq4) - for old projects ([why](https://www.bleepingcomputer.com/news/security/popular-open-source-project-moq-criticized-for-quietly-collecting-data/))
     - Assertion
       - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
       - [Shouldly](https://github.com/shouldly/shouldly)
