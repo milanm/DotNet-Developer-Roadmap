@@ -123,7 +123,7 @@ To learn more about the .NET Ecosystem, check [this blog post](https://milan.mil
 
 ### 1. C#
 
-C# is a programming language developed by Microsoft. It's a go-to choice for building anything from desktop applications and games (using Unity) to cloud-based solutions and web services. With strong support for object-oriented programming and a rich library, it's designed to be easy and efficient. 
+C# is a programming language developed by Microsoft. It's a language for building anything from desktop applications and games (using Unity) to cloud-based solutions and web services. With **strong support for object-oriented programming** and a rich library, it's designed to be easy and efficient. 
 
 The latest version is **[C# 12](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12)**, released in November 2023.
 
@@ -144,6 +144,8 @@ You need to understand different **C# language features**, such as:
 - Collections
 - LINQ (Language Integrated Query)
 - Async and await for asynchronous programming
+
+![C# Mind map](csharp-mindmap.png)
 
 But also **.NET libraries and APIs** for:
 
@@ -173,7 +175,7 @@ But also **.NET libraries and APIs** for:
 
 ### 2. General Development Skills
 
-Mastering design patterns, clean code, and version control like Git enables you to write efficient, maintainable code that works and thrives in a team environment. It's the difference between being a coder and a skilled software engineer.
+Mastering design patterns, clean code, and version control like Git enables you to write efficient, maintainable code that works and thrives in a team environment. It's the **difference between being a coder and a skilled software engineer**.
 
 Here, you need to know different principles, such as:
 
@@ -222,7 +224,7 @@ But also:
 
 ### 3. ASP.NET Core 
 
-It is a cross-platform, high-performance framework developed by Microsoft for building web apps, APIs, and microservices. You can also run your apps on Windows, Linux, or macOS. It's engineered for flexibility and scalability with features like built-in dependency injection and a robust configuration system.
+It is a cross-platform, high-performance framework developed by Microsoft for **building web apps, APIs, and microservices**. You can also run your apps on Windows, Linux, or macOS. It's engineered for flexibility and scalability with features like built-in dependency injection and a robust configuration system.
 
 Here, you also need to know **web development fundamentals**, such as:
 
@@ -266,7 +268,7 @@ Here, you also need to know **web development fundamentals**, such as:
 
 ### 4. Client-Side .NET
 
-If you want to build UIs in .NET, you will need these frameworks. Razor is a template engine for creating dynamic HTML, while Blazor takes it up a notch, letting you build interactive web UIs using C# instead of JavaScript. MAUI is a Xamarin successor made for building cross-platform mobile apps. Windows Presentation Foundation (WPF) is a UI framework that creates desktop client applications. Uno Platform is an open source cross-platform graphical user interface that allows WinUI and Universal Windows Platform (UWP) - based code to run on iOS, macOS, Linux, Android, and WebAssembly.
+If you want to build UIs in .NET, you will need these frameworks. **Razor** is a template engine for creating dynamic HTML, while **Blazor** takes it up a notch, letting you build interactive web UIs using C# instead of JavaScript. **MAUI** is a Xamarin successor made for building cross-platform mobile apps. **Windows Presentation Foundation (WPF)** is a UI framework that creates desktop client applications. Uno Platform is an open source cross-platform graphical user interface that allows WinUI and Universal Windows Platform (UWP) - based code to run on iOS, macOS, Linux, Android, and WebAssembly.
 
 **Resources**:
 
@@ -281,7 +283,7 @@ If you want to build UIs in .NET, you will need these frameworks. Razor is a tem
 
 ### 5. Databases
 
-Good database design ensures efficient data storage and quick retrieval, making your app run smoother and scale easier. SQL, the go-to language for database interaction, gives you the power to query, update, and manage the data you've so carefully designed to store.
+Good database design ensures efficient data storage and quick retrieval, making your app run smoother and scale easier. **SQL**, the go-to language for database interaction, gives you the power to query, update, and manage the data you've so carefully designed to store.
 
 Here, you need to know:
 
@@ -310,7 +312,7 @@ Here, you need to know:
 
 ### 6. ORM
 
-Object-relational mapping (ORM) is like a translator between your object-oriented C# code and the relational database, eliminating the tedious task of writing SQL queries for basic CRUD operations. Using ORM frameworks like Entity Framework, you can manipulate data as objects in your code, making it more readable and maintainable. This speeds up development, minimizes errors, and lets you focus on complex business logic rather than wrestling with database syntax.
+Object-relational mapping (ORM) is like a translator between your object-oriented C# code and the relational database, eliminating the tedious task of writing SQL queries for basic CRUD operations. Using ORM frameworks like Entity Framework, you can **manipulate data as objects in your code, making it more readable and maintainable**. This speeds up development, minimizes errors, and lets you focus on complex business logic rather than wrestling with database syntax.
 
 For **Entity Framework**, you need to know the following:
 
@@ -332,7 +334,7 @@ For **Entity Framework**, you need to know the following:
 
 ### 7. Caching
 
-Caching is like your app's personal short-term memory, storing frequently accessed data so it can be quickly retrieved without taxing your database. By reducing database load and speeding up data access, caching gives your app the competitive edge it needs to meet user demands for responsiveness and availability.
+Caching is like your app's personal short-term memory, storing frequently accessed data so it **can be quickly retrieved without accessing your database**. By reducing database load and speeding up data access, caching gives your app the competitive edge it needs to meet user demands for responsiveness and availability.
 
 **Resources**:
 
@@ -344,7 +346,7 @@ Caching is like your app's personal short-term memory, storing frequently access
 
 ### 8. Logging
 
-Logging captures runtime information, errors, and other crucial data that can help you quickly identify and fix issues, making your application more reliable and secure. Logging frameworks like NLog or Serilog integrate seamlessly into .NET, giving you a real-time diagnostic tool indispensable for monitoring application health, troubleshooting problems, and even gathering insights for future development. 
+Logging captures runtime information, errors, and other crucial data that can help you quickly identify and fix issues, making your application more reliable and secure. Logging frameworks like **NLog** or **Serilog** integrate seamlessly into .NET, giving you a real-time diagnostic tool indispensable for monitoring application health, troubleshooting problems, and even gathering insights for future development. 
 
 **Resources**:
 
@@ -354,7 +356,7 @@ Logging captures runtime information, errors, and other crucial data that can he
 
 ### 9. Communication
 
-In .NET we have three types of communication: Real-time communication, Synchronous, and Asynchronous communication. Real-time communication technologies, like SignalR in the .NET ecosystem, enable these functionalities by maintaining a constant connection between server and client. Synchronous communication is mainly done by using through HTTP Client, while asynchronous communication is done through different messaging and event-based frameworks and libraries. Messaging systems act as a middleman between different parts of your system, allowing them to communicate without being directly connected. Event handlers, on the other side, are used for handling events within a single application. They facilitate a publisher-subscriber model where one part of the application can raise an event that other parts can react to.
+In .NET we have three types of communication: Real-time communication, Synchronous, and Asynchronous communication. **Real-time communication** technologies, like SignalR in the .NET ecosystem, enable these functionalities by maintaining a constant connection between server and client. **Synchronous communication** is mainly done by using through HTTP Client, while **asynchronous communication** is done through different messaging and event-based frameworks and libraries. Messaging systems act as a middleman between different parts of your system, allowing them to communicate without being directly connected. **Event handlers**, on the other side, are used for handling events within a single application. They facilitate a publisher-subscriber model where one part of the application can raise an event that other parts can react to.
 
 **Resources**:
 
@@ -382,7 +384,7 @@ In .NET we have three types of communication: Real-time communication, Synchrono
    
 ### 10. Background tasks
 
-These services run tasks in the background, freeing up your application to focus on user interactions. Whether data processing, automated emails, or periodic clean-ups, background services ensure these tasks don't slow down or interrupt the user experience. 
+These services run tasks in the background, freeing up your application to focus on user interactions. Whether **data processing, automated emails, or periodic clean-ups**, background services ensure these tasks don't slow down or interrupt the user experience. 
 
 **Resources**:
 
@@ -392,7 +394,7 @@ These services run tasks in the background, freeing up your application to focus
 
 ### 11. Object Mapping  
 
-Their libraries automate the task of mapping between objects, eliminating the need for repetitive, error-prone manual mapping code. This boosts productivity and minimizes bugs, especially when dealing with complex models and DTOs (Data Transfer Objects). 
+Their libraries automate the task of **mapping between objects**, eliminating the need for repetitive, error-prone manual mapping code. This boosts productivity and minimizes bugs, especially when dealing with complex models and DTOs (Data Transfer Objects). 
 
 **Resources**:
 
@@ -401,7 +403,7 @@ Their libraries automate the task of mapping between objects, eliminating the ne
 
 ### 12. Testing
 
-Unit tests focus on isolated pieces of your code, integration tests ensure different parts play well together, and end-to-end tests validate the entire user journey within your application. Together, they form a safety net, catching bugs early, simplifying debugging, and making your codebase robust and maintainable.
+**Unit tests** focus on isolated pieces of your code, **integration tests** ensure different parts play well together, and **end-to-end tests** validate the entire user journey within your application. Together, they form a safety net, catching bugs early, simplifying debugging, and making your codebase robust and maintainable.
 
 Here you need to know:
 
@@ -442,7 +444,7 @@ Here you need to know:
 
 ### 13. Observability   
 
-These tools provide real-time insights into your application's performance, user behavior, and error rates, enabling you to address issues before they escalate into full-blown problems proactively.
+These tools provide **real-time insights into your application's performance**, user behavior, and error rates, enabling you to address issues before they escalate into full-blown problems proactively.
 
 - **Monitoring** focuses on the health and availability of services and systems, often triggering alerts for predefined conditions.
 
@@ -461,7 +463,7 @@ These tools provide real-time insights into your application's performance, user
 
 ### 14. Containerization
 
-Container solutions encapsulate your .NET application, libraries, and runtime into isolated containers. This enables consistency across multiple development and production environments, resolving dependency issues. With features like layered file systems, you can easily manage container images for ASP.NET, .NET Core, or other .NET services, optimizing build times and resource utilization.
+Container solutions encapsulate your .NET application, libraries, and runtime into isolated containers. This **enables consistency across multiple development and production environments**, resolving dependency issues. With features like layered file systems, you can easily manage container images for ASP.NET, .NET Core, or other .NET services, optimizing build times and resource utilization.
 
 **Resources**:
 - Containers
@@ -477,7 +479,7 @@ Container solutions encapsulate your .NET application, libraries, and runtime in
 
 ### 15. Cloud
 
-Cloud providers provide a layer of APIs to abstract infrastructure and provision it based on security and billing boundaries. The cloud runs on servers in data centers, but the abstractions cleverly give the appearance of interacting with a single "platform" or large application. The ability to quickly provision, configure, and secure resources with cloud providers has been key to the tremendous success and complexity of modern DevOps.
+Cloud providers provide a layer of APIs to abstract infrastructure and provision it based on security and billing boundaries. The cloud **runs on servers in data centers**, but the abstractions cleverly give the appearance of interacting with a single "platform" or large application. The ability to quickly provision, configure, and secure resources with cloud providers has been key to the tremendous success and complexity of modern DevOps.
 
 The most popular cloud providers in the market are **AWS** and **Azure**, as well as **Google Cloud**.
 
@@ -491,7 +493,7 @@ Here, you must know how to manage users and administration, networks, virtual se
 
 ### 16. Continuous Integration & Delivery (CI/CD)
 
-CI/CD automates the building, testing, and deployment stages into a streamlined, error-resistant pipeline. This means faster releases, bug fixes, and more time to focus on feature development.
+CI/CD automates the building, testing, and deployment stages into a streamlined, error-resistant pipeline. This means **faster releases, bug fixes, and more time to focus on feature development**.
 
 Here you need to know how to:
 
