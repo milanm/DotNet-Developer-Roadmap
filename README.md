@@ -55,13 +55,12 @@ Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
   - [8. Logging](#8-logging)
   - [9. Communication](#9-communication)
   - [10. Background tasks](#10-background-tasks)
-  - [11. Object Mapping](#11-object-mapping)
-  - [12. Testing](#12-testing)
-  - [13. Observability](#13-observability)
-  - [15. Containerization](#15-containerization)
-  - [14. Cloud](#16-cloud)
-  - [15. Continuous Integration \& Delivery (CI/CD)](#17-continuous-integration--delivery-cicd)
-  - [16. NET Libraries](#18-net-libraries)
+  - [11. Testing](#11-testing)
+  - [12. Observability](#12-observability)
+  - [13. Containerization](#13-containerization)
+  - [14. Cloud](#14-cloud)
+  - [15. Continuous Integration \& Delivery (CI/CD)](#15-continuous-integration--delivery-cicd)
+  - [16. NET Libraries](#16-net-libraries)
   - [Additional considerations](#additional-considerations)
     - [Performance best practices](#performance-best-practices)
     - [Profiling and diagnostics](#profiling-and-diagnostics)
@@ -392,16 +391,7 @@ These services run tasks in the background, freeing up your application to focus
 - [HangFire](https://github.com/HangfireIO/Hangfire)
 - [Quartz](https://github.com/quartznet/quartznet)
 
-### 11. Object Mapping  
-
-Their libraries automate the task of **mapping between objects**, eliminating the need for repetitive, error-prone manual mapping code. This boosts productivity and minimizes bugs, especially when dealing with complex models and DTOs (Data Transfer Objects). 
-
-**Resources**:
-
-- [AutoMapper](https://github.com/AutoMapper/AutoMapper)
-- [Mapster](https://github.com/MapsterMapper/Mapster)
-
-### 12. Testing
+### 11. Testing
 
 **Unit tests** focus on isolated pieces of your code, **integration tests** ensure different parts play well together, and **end-to-end tests** validate the entire user journey within your application. Together, they form a safety net, catching bugs early, simplifying debugging, and making your codebase robust and maintainable.
 
@@ -410,7 +400,7 @@ Here you need to know:
 - Test frameworks (xUnit, NUnit, MSTest)
 - Test runners and test explorers
 - Asserts and test attributes
-- Mocking libraries (Moq, NSubstitute, etc.)
+- Mocking libraries (NSubstitute, etc.)
 
 **Resources**:
 
@@ -420,8 +410,7 @@ Here you need to know:
       - [NUnit](https://nunit.org/)
       - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
     - Mocking
-      - [NSubstitute](https://github.com/nsubstitute/NSubstitute) - for new projects
-      - [Moq](https://github.com/moq/moq4) - for old projects ([why](https://www.bleepingcomputer.com/news/security/popular-open-source-project-moq-criticized-for-quietly-collecting-data/))
+      - [NSubstitute](https://github.com/nsubstitute/NSubstitute) 
     - Assertion
       - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
       - [Shouldly](https://github.com/shouldly/shouldly)
@@ -442,7 +431,7 @@ Here you need to know:
      - [K6](https://github.com/grafana/k6)
      - [JMeter](https://github.com/apache/jmeter)
 
-### 13. Observability   
+### 12. Observability   
 
 These tools provide **real-time insights into your application's performance**, user behavior, and error rates, enabling you to address issues before they escalate into full-blown problems proactively.
 
@@ -461,7 +450,7 @@ These tools provide **real-time insights into your application's performance**, 
 - [Azure Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
 - [Azure Log Analytics](https://docs.microsoft.com/azure/azure-monitor/logs/log-analytics-overview)
 
-### 14. Containerization
+### 13. Containerization
 
 Container solutions encapsulate your .NET application, libraries, and runtime into isolated containers. This **enables consistency across multiple development and production environments**, resolving dependency issues. With features like layered file systems, you can easily manage container images for ASP.NET, .NET Core, or other .NET services, optimizing build times and resource utilization.
 
@@ -477,7 +466,7 @@ Container solutions encapsulate your .NET application, libraries, and runtime in
     - [Helm](https://helm.sh/)
     - [Azure Container Apps](https://docs.microsoft.com/en-us/azure/container-apps/overview)
 
-### 15. Cloud
+### 14. Cloud
 
 Cloud providers provide a layer of APIs to abstract infrastructure and provision it based on security and billing boundaries. The cloud **runs on servers in data centers**, but the abstractions cleverly give the appearance of interacting with a single "platform" or large application. The ability to quickly provision, configure, and secure resources with cloud providers has been key to the tremendous success and complexity of modern DevOps.
 
@@ -491,7 +480,7 @@ Here, you must know how to manage users and administration, networks, virtual se
 - [Azure](https://azure.microsoft.com/)
 - [Google Cloud](https://cloud.google.com/)
 
-### 16. Continuous Integration & Delivery (CI/CD)
+### 15. Continuous Integration & Delivery (CI/CD)
 
 CI/CD automates the building, testing, and deployment stages into a streamlined, error-resistant pipeline. This means **faster releases, bug fixes, and more time to focus on feature development**.
 
@@ -512,7 +501,7 @@ Here you need to know how to:
     - [Jenkins](https://www.jenkins.io)
     - [TeamCity](https://www.jetbrains.com/teamcity)
 
-### 17. NET Libraries
+### 16. NET Libraries
 
 Some useful .NET libraries. Note that not all libraries will be used by everyone, it mainly depends on a project you work on.
 
