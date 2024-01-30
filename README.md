@@ -64,7 +64,7 @@ Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
   - [Additional considerations](#additional-considerations)
     - [Performance best practices](#performance-best-practices)
     - [Profiling and diagnostics](#profiling-and-diagnostics)
-    - [Performance best practices](#performance-best-practices-1)
+    - [Performances 101](#performances-101)
     - [Security and Cryptography](#security-and-cryptography)
   - [Additional learning resources](#additional-learning-resources)
     - [Books](#books)
@@ -529,7 +529,7 @@ These tools can help you identify and debug different performance bottlenecks yo
 - [Visual Studio Profiler](https://learn.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2022)
 - [dotTrace](https://www.jetbrains.com/profiler/) and [dotMemory](https://www.jetbrains.com/dotmemory/)
 
-#### Performance best practices
+#### Performances 101
 
 Along with tools, you should be aware of different performance best practices for .NET:
 
