@@ -61,18 +61,7 @@ Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
   - [14. Cloud](#14-cloud)
   - [15. Continuous Integration \& Delivery (CI/CD)](#15-continuous-integration--delivery-cicd)
   - [16. NET Libraries](#16-net-libraries)
-  - [Additional considerations](#additional-considerations)
-    - [Performance best practices](#performance-best-practices)
-    - [Profiling and diagnostics](#profiling-and-diagnostics)
-    - [Performances 101](#performances-101)
-    - [Security and Cryptography](#security-and-cryptography)
-  - [Additional learning resources](#additional-learning-resources)
-    - [Books](#books)
-    - [YouTube Channels](#youtube-channels)
-    - [Blogs](#blogs)
-    - [Podcasts](#podcasts)
-    - [Other .NET Content creators](#other-net-content-creators)
-- [Tools](#tools)
+
 
 ## Understanding the .NET ecosystem
 
