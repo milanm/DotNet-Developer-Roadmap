@@ -4,6 +4,12 @@ This is a step-by-step guide to becoming a .NET Engineer, with links to relevant
 
 If you want to learn more about .NET technologies, be sure to subscribe to **[my newsletter](https://newsletter.techworld-with-milan.com/)**. 
 
+## Support My Work
+
+If you find this repository helpful, consider supporting me on Patreon:
+
+[![Patreon](patreon.png)](https://www.patreon.com/techworld_with_milan)
+
 ## Disclaimer
 
 > This roadmap aims to give you an idea about the landscape. The road map will guide you if you need clarification about what to learn next rather than encouraging you to pick what is hype and trendy. It would help if you grew some understanding of why one tool would be better suited for some cases than the other and remember that hype and trendy only sometimes mean best suited for the job.
