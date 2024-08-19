@@ -611,6 +611,8 @@ Security plays an essential role in application development. The most critical a
 - freeCodeCamp
   - [C# Tutorial - Full Course for Beginners](https://www.youtube.com/watch?v=GhQdlIFylQ8) (3h)
   - [Advanced C# Programming Course](https://www.youtube.com/watch?v=YT8s-90oDC0) (15h)
+- [Raw Coding](https://www.youtube.com/@RawCoding)
+- [Gui Fereira](https://www.youtube.com/@gui.ferreira)
 
 ### Blogs
 
