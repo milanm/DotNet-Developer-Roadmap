@@ -48,7 +48,7 @@ Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
     - [.NET Framework](#net-framework)
     - [.NET Core](#net-core)
     - [The One .NET - .NET 5](#the-one-net---net-5)
-    - [The current - .NET 8](#the-current---net-8)
+    - [The current - .NET 9](#the-current---net-9)
   - [.NET Standard](#net-standard)
 - [Learning resources](#learning-resources)
   - [1. C#](#1-c)
@@ -105,13 +105,13 @@ You can use it for both desktop and web development, but it is limited to Window
 
 [.NET 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0) was released in November 2020 with the goal of unifying development for desktop, Web, cloud, mobile, gaming, IoT, and AI applications. The earlier setup goal was to produce a single .NET runtime and framework, cross-platform, integrating the best features of .NET Core, .NET Framework, Xamarin, and Mono. However, due to the global health pandemic, the unification was postponed to .NET 6. .NET 5 is a shared code base for .NET Core, Mono, Xamarin, and future .NET implementations. Also, target framework names (TFMs), which express which version of .NET targeting, are updated, so we now have net5.0. This is for code that runs everywhere. It combines and replaces the netcoreapp and netstandard names and net5.0-windows that represent OS-specific flavors of .NET 5 that include net5.0 plus OS-specific bindings.
 
-### The current - .NET 8
+### The current - .NET 9
 
-[.NET 8](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8) is the latest runtime in the .NET Ecosystem. It is released in November 2023. and it unifies development for desktop, Web, cloud, mobile, gaming, IoT, and AI applications. .NET 8 consists of an App Host (dotnet.exe) that runs CLR and Library. It has a Common language runtime (CoreCLR) and .NET 8 Class Library. It also includes ASP.NET Core 8. .NET 8 has nearly identical platform support as .NET Core 3.1 for Windows, macOS, and Linux.
+[.NET 9](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-9/overview) is the latest runtime in the .NET Ecosystem. It is released in November 2024. and it unifies development for desktop, Web, cloud, mobile, gaming, IoT, and AI applications. .NET 9 consists of an App Host (dotnet.exe) that runs CLR and Library. It has a Common language runtime (CoreCLR) and .NET 8 Class Library. It also includes ASP.NET Core 9. .NET 9 has nearly identical platform support as .NET Core 3.1 for Windows, macOS, and Linux.
 
-.NET 8 is a **Long Term Support (LTS)**. Those releases are supported for three years after the initial release.
+.NET 9 is a **Standard Term Support** release, supported for six months after a subsequent STS or LTS release.
 
-.NET 7 was a **Standard Term Support** release, supported for six months after a subsequent STS or LTS release.
+.NET 8 was a **Long Term Support (LTS)**. Those releases are supported for three years after the initial release.
 
 ## .NET Standard
 
@@ -130,7 +130,7 @@ To learn more about the .NET Ecosystem, check [this blog post](https://milan.mil
 
 C# is a programming language developed by Microsoft. It's a language for building anything from desktop applications and games (using Unity) to cloud-based solutions and web services. With **strong support for object-oriented programming** and a rich library, it's designed to be easy and efficient. 
 
-The latest version is **[C# 12](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12)**, released in November 2023.
+The latest version is **[C# 13](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-13)**, released in November 2024.
 
 Check the full C# timeline:
 
