@@ -1,4 +1,4 @@
-# .NET Developer Roadmap 2024.
+# .NET Developer Roadmap 2025.
 
 This is a step-by-step guide to becoming a .NET Engineer, with links to relevant learning resources.
 
@@ -36,9 +36,9 @@ Download [PDF version](NET%20Roadmap.pdf).
 
 Below you can find a bare minimum version every junior .NET developer needs to know, with learning materials included and clickable in the PDF version.
 
-![Roadmap](NET%20Developer%20Roadmap%202024.%20Minimal.png)
+![Roadmap](NET%20Developer%20Roadmap%20Minimal.png)
 
-Download [PDF version](NET%20Developer%20Roadmap%202024.%20Minimal.pdf).
+Download [PDF version](NET%20Developer%20Roadmap%20Minimal.pdf).
 
 
 ## Table of Contents
@@ -221,7 +221,8 @@ But also:
     - Observer
 - Learn [Main software design](https://newsletter.techworld-with-milan.com/p/main-software-design-principles-you) principles
 - Learn [SOLID](https://www.pluralsight.com/courses/principles-oo-design) principles of OO Design in depth.
-- Software Archtitecure Styles
+- Learn [Clean Architecture](https://newsletter.techworld-with-milan.com/p/what-is-clean-architecture)
+- Software Architecture Styles
     - Learn [Fundamentals of Software Architectures](https://amzn.to/3rEtJWh)
     - Learn [Layered](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html) architecture style
     - Learn [Microservices](https://microservices.io/) and [DAPR](https://dapr.io/)
@@ -251,6 +252,7 @@ Here, you also need to know **web development fundamentals**, such as:
 - APIs
     - [Web API](https://dotnet.microsoft.com/en-us/apps/aspnet/apis)
     - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-8.0)
+      - [FastEndpoints](https://fast-endpoints.com/)
     - Protocols
         - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
         - [GraphQL](https://graphql.org/)
@@ -312,6 +314,7 @@ Here, you need to know:
   - [MongoDB](https://docs.microsoft.com/aspnet/core/tutorials/first-mongo-app)
   - [RavenDB](https://github.com/ravendb/ravendb)
   - [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db)
+  - [Marten](https://martendb.io/) -  (document DB and event store on PostgreSQL)
 - Tools:
   - [SQLFlow](https://sqlflow.gudusoft.com/#/) - a great tool to visualize SQL queries.
 
@@ -344,6 +347,7 @@ Caching is like your app's personal short-term memory, storing frequently access
 **Resources**:
 
 - [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
+- [Hybrid Cache](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/hybrid?view=aspnetcore-9.0)
 - [Redis](https://redis.io/)
 - Application-Level
    - [Built-in](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
@@ -418,7 +422,6 @@ Here you need to know:
     - Mocking
       - [NSubstitute](https://github.com/nsubstitute/NSubstitute) 
     - Assertion
-      - [FluentAssertion](https://github.com/fluentassertions/fluentassertions)
       - [Shouldly](https://github.com/shouldly/shouldly)
     - Test Data Generators
       - [Bogus](https://github.com/bchavez/Bogus)
@@ -485,6 +488,7 @@ Here, you must know how to manage users and administration, networks, virtual se
 - [AWS](https://aws.amazon.com/)
 - [Azure](https://azure.microsoft.com/)
 - [Google Cloud](https://cloud.google.com/)
+- [.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview/) *(cloud-native .NET application model for microservices)
 
 ### 15. Continuous Integration & Delivery (CI/CD)
 
@@ -507,7 +511,27 @@ Here you need to know how to:
     - [Jenkins](https://www.jenkins.io)
     - [TeamCity](https://www.jetbrains.com/teamcity)
 
-### 16. NET Libraries
+### 16. AI & Machine Learning
+
+AI & Machine Learning enable software to learn from data, recognize patterns, and generate insights without explicit programming. In the .NET ecosystem, AI is increasingly used for automation, predictions, recommendations, and natural language processing.
+
+While traditional machine learning relies on structured data and models, modern AI advances—such as large language models (LLMs)—enable applications to understand and generate human-like text, images, and code. Cloud providers like Azure AI and OpenAI offer ready-to-use AI APIs that integrate seamlessly into .NET applications.
+
+For a .NET developer, key areas to understand include:
+
+- Basic Machine Learning concepts – classification, regression, and neural networks
+- AI-powered applications – using LLMs, chatbots, and intelligent search
+- Cloud AI Services – leveraging Azure AI and OpenAI APIs
+
+**Resources**:
+
+- [ML.NET](https://dotnet.microsoft.com/en-us/apps/machinelearning-ai/ml-dotnet) 
+- [ONNX Runtime](https://onnxruntime.ai/)
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) 
+- [OpenAI .NET SDK](https://platform.openai.com/docs/) 
+- [Azure AI Services](https://azure.microsoft.com/en-us/products/cognitive-services/) 
+
+### 17. NET Libraries
 
 Some useful .NET libraries. Note that not all libraries will be used by everyone, it mainly depends on a project you work on.
 
