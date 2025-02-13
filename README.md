@@ -97,7 +97,7 @@ You can use it for both desktop and web development, but it is limited to Window
 
 ### .NET Core
 
-[.NET Core](https://dotnet.microsoft.com/en-us/download) is one of the runtimes in the .NET Ecosystem. It was released in 2016. and it's [open-sourced](https://github.com/dotnet/core). It does not represent a new version of the .NET Framework and will not replace it. It is an entirely independent version, built to allow cross-platform capability for application development. .NET Core consists of an App Host (dotnet.exe) that runs CLR and Library. It has a Common language runtime (CoreCLR) and .NET Core Class Library. It supports different application workloads, such as ASP.NET Core (MVC and API), console applications, and UWP (currently).
+[.NET Core](https://dotnet.microsoft.com/en-us/download) is one of the runtimes in the .NET Ecosystem. It was released in 2016. and it's [open-sourced](https://github.com/dotnet/core). It does not represent a new version of the .NET Framework and will not replace it. It is an entirely independent version, built to allow cross-platform capability for application development. .NET Core consists of an App Host (dotnet.exe) that runs CLR and Library. It has a Common language runtime (CoreCLR) and .NET Core Class Library. It supports different application workloads, such as ASP.NET Core (MVC and API), console applications, and UWP.
 
 .NET Core can run on different platforms: Windows Client, Server, IoT, Linux, Ubuntu, FreeBSD, Tizen, and Mac OSX, and can be installed side-by-side of different versions per machine or user.
 
@@ -239,6 +239,8 @@ Here, you also need to know **web development fundamentals**, such as:
 - HTTP protocols, DNS, request/response model, and RESTful APIs
 - Routing, middleware, authentication, and authorization
 
+Note that **Minimal APIs** are now preferred for lightweight APIs, instead of controllers.
+
 **Resources**:
 
 - Web Basics:
@@ -287,7 +289,7 @@ If you want to build UIs in .NET, you will need these frameworks. **Razor** is a
 - [WinUI](https://docs.microsoft.com/en-us/windows/apps/winui/winui3/)
 - [Uno Platform](https://platform.uno/)
 - [Avalonia](https://avaloniaui.net/)
-- Note: [UWP](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) and [WinForms](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/overview/?view=netdesktop-8.0) are also used client-side .NET technologies but they are more in their end of life.
+- Note: [UWP](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) and [WinForms](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/overview/?view=netdesktop-8.0) are also used client-side .NET technologies but they are more in their end of life (deprecated).
 
 ### 5. Databases
 
@@ -307,14 +309,14 @@ Here, you need to know:
 - [Learn SQL](https://newsletter.techworld-with-milan.com/p/how-to-learn-sql)
 - Relational
   - [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
-  - [PostgreSQL](https://www.postgresql.org)
+  - [PostgreSQL](https://www.postgresql.org) - recommened for new projects
   - [MariaDB](https://mariadb.org)
   - [MySQL](https://www.mysql.com)
   - [Azure SQL](https://azure.microsoft.com/en-us/products/azure-sql/database)
 - NoSQL
   - [MongoDB](https://docs.microsoft.com/aspnet/core/tutorials/first-mongo-app)
   - [RavenDB](https://github.com/ravendb/ravendb)
-  - [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db)
+  - [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db) - recommened for new projects
   - [Marten](https://martendb.io/) -  (document DB and event store on PostgreSQL)
 - Tools:
   - [SQLFlow](https://sqlflow.gudusoft.com/#/) - a great tool to visualize SQL queries.
@@ -433,6 +435,8 @@ Here you need to know:
     - [Testcontainers](https://dotnet.testcontainers.org/)
 - Snapshot Testing
      - [Verify](https://github.com/VerifyTests/Verify)
+- Mutation Testing
+     - [Verify](https://stryker-mutator.io/)
 - Behavior Testing
      - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
 - End-to-End Testing
@@ -455,7 +459,7 @@ These tools provide **real-time insights into your application's performance**, 
 - [Grafana](https://github.com/grafana/grafana)
 - [Datadog](https://www.datadoghq.com)
 - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
-- [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-dotnet)
+- [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-dotnet) - an emerging standard for tracing and monitoring in .NET.
 - [Jaeger](https://www.jaegertracing.io/)
 - [Azure Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
 - [Azure Log Analytics](https://docs.microsoft.com/azure/azure-monitor/logs/log-analytics-overview)
@@ -481,6 +485,8 @@ Container solutions encapsulate your .NET application, libraries, and runtime in
 Cloud providers provide a layer of APIs to abstract infrastructure and provision it based on security and billing boundaries. The cloud **runs on servers in data centers**, but the abstractions cleverly give the appearance of interacting with a single "platform" or large application. The ability to quickly provision, configure, and secure resources with cloud providers has been key to the tremendous success and complexity of modern DevOps.
 
 The most popular cloud providers in the market are **AWS** and **Azure**, as well as **Google Cloud**.
+
+Also, Microsoft added a new product called **.NET Aspire** to simplify microservices and cloud-native development.
 
 Here, you must know how to manage users and administration, networks, virtual servers, etc.
 
@@ -511,6 +517,12 @@ Here you need to know how to:
     - [Travis CI](https://travis-ci.org)
     - [Jenkins](https://www.jenkins.io)
     - [TeamCity](https://www.jetbrains.com/teamcity)
+- Infrastructure as code (IaC):
+  - [Terraform](https://www.terraform.io/)
+  - [Pulumi](https://www.pulumi.com/)
+  - [Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/)
+
+Check the full [DevOps Roadmap](https://github.com/milanm/DevOps-Roadmap). 
 
 ### 16. AI & Machine Learning
 
@@ -592,7 +604,7 @@ Along with tools, you should be aware of different performance best practices fo
 
 - **Measure and Monitor Performance** (use VS Diagnostic Tools, App Insights, or BenchmarkDotNet)
 
-- **User Span<> instead of collections** (spans can represent a contiguous section of memory; this means we can use them to operate over arrays)
+- **Use Span<> instead of collections** (spans can represent a contiguous section of memory; this means we can use them to operate over arrays)
 
 ### Security and Cryptography
 
