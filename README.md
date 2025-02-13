@@ -436,7 +436,7 @@ Here you need to know:
 - Snapshot Testing
      - [Verify](https://github.com/VerifyTests/Verify)
 - Mutation Testing
-     - [Verify](https://stryker-mutator.io/)
+     - [Stryker](https://stryker-mutator.io/)
 - Behavior Testing
      - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
 - End-to-End Testing
