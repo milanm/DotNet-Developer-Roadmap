@@ -57,11 +57,11 @@ Download [PDF version](NET%20Developer%20Roadmap%20Minimal.pdf).
   - [4. Client-Side .NET](#4-client-side-net)
   - [5. Databases](#5-databases)
   - [6. ORM](#6-orm)
-  - [7. Caching](#7-caching)
+  - [7. Testing](#7-testing)
   - [8. Logging](#8-logging)
   - [9. Communication](#9-communication)
   - [10. Background tasks](#10-background-tasks)
-  - [11. Testing](#11-testing)
+  - [11. Caching](#11-caching)
   - [12. Observability](#12-observability)
   - [13. Containerization](#13-containerization)
   - [14. Cloud](#14-cloud)
@@ -343,68 +343,7 @@ For **Entity Framework**, you need to know the following:
 - [LINQ](https://www.dotnetnakama.com/blog/understanding-the-dot-net-language-integrated-query-linq/)
 - [ADO.NET](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/)
 
-### 7. Caching
-
-Caching is like your app's personal short-term memory, storing frequently accessed data so it **can be quickly retrieved without accessing your database**. By reducing database load and speeding up data access, caching gives your app the competitive edge it needs to meet user demands for responsiveness and availability.
-
-**Resources**:
-
-- [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
-- [Hybrid Cache](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/hybrid?view=aspnetcore-9.0)
-- [Redis](https://redis.io/)
-- Application-Level
-   - [Built-in](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
-   - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
-
-### 8. Logging
-
-Logging captures runtime information, errors, and other crucial data that can help you quickly identify and fix issues, making your application more reliable and secure. Logging frameworks like **NLog** or **Serilog** integrate seamlessly into .NET, giving you a real-time diagnostic tool indispensable for monitoring application health, troubleshooting problems, and even gathering insights for future development. 
-
-**Resources**:
-
-- [Serilog](https://github.com/serilog/serilog)
-- [NLog](https://github.com/NLog/NLog)
-- [Microsoft.Extensions.Logging](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging)
-
-### 9. Communication
-
-In .NET we have three types of communication: Real-time communication, Synchronous, and Asynchronous communication. **Real-time communication** technologies, like SignalR in the .NET ecosystem, enable these functionalities by maintaining a constant connection between server and client. **Synchronous communication** is mainly done by using through HTTP Client, while **asynchronous communication** is done through different messaging and event-based frameworks and libraries. Messaging systems act as a middleman between different parts of your system, allowing them to communicate without being directly connected. **Event handlers**, on the other side, are used for handling events within a single application. They facilitate a publisher-subscriber model where one part of the application can raise an event that other parts can react to.
-
-**Resources**:
-
-- Real time communication:
-    - [SignalR Core](https://docs.microsoft.com/aspnet/core/signalr)
-    - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets) 
-    - [Socket.IO](https://github.com/doghappy/socket.io-client-csharp)
-- Synchronous communication: 
-    - [HTTP Client](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-8.0)
-- Asynchronous communication: 
-    - Message brokers:
-         - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
-         - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
-         - [ActiveMQ](https://activemq.apache.org/)
-         - [NetMQ](https://netmq.readthedocs.io/en/latest/)
-         - [Apache Kafka](https://kafka.apache.org/)
-     - Message bus:
-         - [MassTransit](https://github.com/MassTransit/MassTransit)
-         - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
-         - [NServiceBus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/build-message-driven-apps-nservicebus?tabs=Sender)
-         - [EasyNetQ](https://easynetq.com/)
-     - Event handlers:
-         - [Azure Event Hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-about)
-         - [Azure Event Grid](https://docs.microsoft.com/azure/event-grid/overview)
-   
-### 10. Background tasks
-
-These services run tasks in the background, freeing up your application to focus on user interactions. Whether **data processing, automated emails, or periodic clean-ups**, background services ensure these tasks don't slow down or interrupt the user experience. 
-
-**Resources**:
-
-- [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
-- [HangFire](https://github.com/HangfireIO/Hangfire)
-- [Quartz](https://github.com/quartznet/quartznet)
-
-### 11. Testing
+### 7. Testing
 
 **Unit tests** focus on isolated pieces of your code, **integration tests** ensure different parts play well together, and **end-to-end tests** validate the entire user journey within your application. Together, they form a safety net, catching bugs early, simplifying debugging, and making your codebase robust and maintainable.
 
@@ -445,6 +384,68 @@ Here you need to know:
 - Performance Testing
      - [K6](https://github.com/grafana/k6)
      - [JMeter](https://github.com/apache/jmeter)
+
+### 9. Communication
+
+In .NET we have three types of communication: Real-time communication, Synchronous, and Asynchronous communication. **Real-time communication** technologies, like SignalR in the .NET ecosystem, enable these functionalities by maintaining a constant connection between server and client. **Synchronous communication** is mainly done by using through HTTP Client, while **asynchronous communication** is done through different messaging and event-based frameworks and libraries. Messaging systems act as a middleman between different parts of your system, allowing them to communicate without being directly connected. **Event handlers**, on the other side, are used for handling events within a single application. They facilitate a publisher-subscriber model where one part of the application can raise an event that other parts can react to.
+
+**Resources**:
+
+- Real time communication:
+    - [SignalR Core](https://docs.microsoft.com/aspnet/core/signalr)
+    - [WebSockets](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets) 
+    - [Socket.IO](https://github.com/doghappy/socket.io-client-csharp)
+- Synchronous communication: 
+    - [HTTP Client](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-8.0)
+- Asynchronous communication: 
+    - Message brokers:
+         - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
+         - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+         - [ActiveMQ](https://activemq.apache.org/)
+         - [NetMQ](https://netmq.readthedocs.io/en/latest/)
+         - [Apache Kafka](https://kafka.apache.org/)
+     - Message bus:
+         - [MassTransit](https://github.com/MassTransit/MassTransit)
+         - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
+         - [NServiceBus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/build-message-driven-apps-nservicebus?tabs=Sender)
+         - [EasyNetQ](https://easynetq.com/)
+     - Event handlers:
+         - [Azure Event Hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-about)
+         - [Azure Event Grid](https://docs.microsoft.com/azure/event-grid/overview)
+   
+### 10. Background tasks
+
+These services run tasks in the background, freeing up your application to focus on user interactions. Whether **data processing, automated emails, or periodic clean-ups**, background services ensure these tasks don't slow down or interrupt the user experience. 
+
+**Resources**:
+
+- [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
+- [HangFire](https://github.com/HangfireIO/Hangfire)
+- [Quartz](https://github.com/quartznet/quartznet)
+
+### 11. Caching
+
+Caching is like your app's personal short-term memory, storing frequently accessed data so it **can be quickly retrieved without accessing your database**. By reducing database load and speeding up data access, caching gives your app the competitive edge it needs to meet user demands for responsiveness and availability.
+
+**Resources**:
+
+- [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
+- [Hybrid Cache](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/hybrid?view=aspnetcore-9.0)
+- [Redis](https://redis.io/)
+- Application-Level
+   - [Built-in](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
+   - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
+
+### 8. Logging
+
+Logging captures runtime information, errors, and other crucial data that can help you quickly identify and fix issues, making your application more reliable and secure. Logging frameworks like **NLog** or **Serilog** integrate seamlessly into .NET, giving you a real-time diagnostic tool indispensable for monitoring application health, troubleshooting problems, and even gathering insights for future development. 
+
+**Resources**:
+
+- [Serilog](https://github.com/serilog/serilog)
+- [NLog](https://github.com/NLog/NLog)
+- [Microsoft.Extensions.Logging](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging)
+
 
 ### 12. Observability   
 
