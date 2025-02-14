@@ -410,7 +410,7 @@ These services run tasks in the background, freeing up your application to focus
 
 Here you need to know:
 
-- Test frameworks (xUnit, NUnit, MSTest)
+- Test frameworks (xUnit, NUnit, MSTest, TUnit)
 - Test runners and test explorers
 - Asserts and test attributes
 - Mocking libraries (NSubstitute, etc.)
@@ -422,6 +422,7 @@ Here you need to know:
       - [xUnit](https://xunit.net/)
       - [NUnit](https://nunit.org/)
       - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
+      - [TUnit](https://thomhurst.github.io/TUnit/)
     - Mocking
       - [NSubstitute](https://github.com/nsubstitute/NSubstitute) 
     - Assertion
