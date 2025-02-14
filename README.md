@@ -554,7 +554,7 @@ Some useful .NET libraries. Note that not all libraries will be used by everyone
 - **[Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)** - .NET library for benchmarking.
 - **[Refit](https://github.com/reactiveui/refit)** - Turns your REST API into a live interface.
 - **[YARP](https://microsoft.github.io/reverse-proxy/)** - Reverse proxy server.
-- **[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)** - Swagger tools for documenting API's built on ASP.NET Core.
+- **[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)** - Swagger tools for documenting API's built on ASP.NET Core. (*not anymore supported from .NET 9, check [NSwag](https://github.com/RicoSuter/NSwag))
 
 ## Additional considerations
 
