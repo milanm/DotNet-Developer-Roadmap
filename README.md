@@ -608,6 +608,8 @@ Along with tools, you should be aware of different performance best practices fo
 
 - **Use Span<> instead of collections** (spans can represent a contiguous section of memory; this means we can use them to operate over arrays)
 
+Check more about performances in the [Awesome .NET Performance](https://github.com/adamsitnik/awesome-dot-net-performance) repo.
+
 ### Security and Cryptography
 
 Security plays an essential role in application development. The most critical aspects of security in the .NET world are:
