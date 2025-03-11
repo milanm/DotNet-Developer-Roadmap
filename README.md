@@ -278,7 +278,7 @@ Note that **Minimal APIs** are now preferred for lightweight APIs, instead of co
 
 ### 4. Client-Side .NET
 
-If you want to build UIs in .NET, you will need these frameworks. **Razor** is a template engine for creating dynamic HTML, while **Blazor** takes it up a notch, letting you build interactive web UIs using C# instead of JavaScript. **MAUI** is a Xamarin successor made for building cross-platform mobile apps. **Windows Presentation Foundation (WPF)** is a UI framework that creates desktop client applications. Uno Platform is an open source cross-platform graphical user interface that allows WinUI and Universal Windows Platform (UWP) - based code to run on iOS, macOS, Linux, Android, and WebAssembly.
+If you want to build UIs in .NET, you will need these frameworks. **Razor** is a template engine for creating dynamic HTML, while **Blazor** takes it up a notch, letting you build interactive web UIs using C# instead of JavaScript. **MAUI** is a Xamarin successor made for building cross-platform mobile apps. **Windows Presentation Foundation (WPF)** is a UI framework that creates desktop client applications. **Uno Platform** is an open-source cross-platform UI framework that allows developers to build single-codebase applications for Windows, macOS, Linux, iOS, Android, and Web (via WebAssembly) using .NET.
 
 **Resources**:
 
