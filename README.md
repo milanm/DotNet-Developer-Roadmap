@@ -114,6 +114,8 @@ You can use it for both desktop and web development, but it is limited to Window
 
 .NET 8 was a **Long Term Support (LTS)**. Those releases are supported for three years after the initial release.
 
+![C#/NET Timeline](CSharp-NET_Timeline.jpg)
+
 ## .NET Standard
 
 Different runtimes use different class libraries, e.g., .NET Framework uses .NET Framework class library, while .NET Core contains its class library, as well as Xamarin with its class library. In this way, it's hard to share code between different runtimes, as they use different APIs. Microsoft's solution is the **.NET Standard library**, released in 2016. It represents a set of (formal) specifications that say which APIs you can use and all runtimes implement it. It is the evolution of Portable Class Libraries (PCL). Specific runtimes implement specific versions of .NET Standard (implementing specific APIs). E.g., .NET Framework 4.8.1 implements .NET Standard 2.0, and .NET 7 implements .NET Standard 2.1 ([link](https://learn.microsoft.com/en-us/dotnet/standard/net-standard?tabs=net-standard-1-0#net-implementation-support)).
@@ -123,7 +125,6 @@ To learn more about the .NET Ecosystem, check [this blog post](https://milan.mil
 **.NET Release Schedule by Microsoft:**
 
 ![.NET Release schedule by Microsoft](release-schedule.png)
-
 
 ## Learning resources
 
@@ -701,6 +702,7 @@ Security plays an essential role in application development. The most critical a
 - [Postman](https://www.postman.com/) - platform for testing APIs.
 - [NDepend](https://www.ndepend.com/) - static code analyzer.
 - [NCrunch for Visual Studio](https://www.ncrunch.net/) - enables developers to run tests in the background as they write code.
+
 
 ## Wrap Up
 
