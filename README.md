@@ -152,8 +152,6 @@ You need to understand different **C# language features**, such as:
 - LINQ (Language Integrated Query)
 - Async and await for asynchronous programming
 
-![C# Mind map](csharp-mindmap.png)
-
 But also **.NET libraries and APIs** for:
 
 - File I/O and serialization
