@@ -5,11 +5,11 @@ This is a step-by-step guide to becoming a .NET Engineer, with links to relevant
 ## [Grab my .NET Ultimate Bundle for 2025 — 500+ pages](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
 
 * Modern C# v6‑13 features
-* 200 + interview Q\&As that hiring managers ask
-* 50 + real‑world design patterns in C#
+* 200+ interview Q\&As that hiring managers ask
+* 50+ real‑world design patterns in C#
 * A brief walk through the .NET ecosystem 
 * ASP.NET Core auth  & middleware best practices
-* Bonus: 73‑page C# cheat sheet
+* Bonus: A complete C# cheat sheet
 * And more
 
 [Get the .NET Ultimate Bundle 🚀](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
