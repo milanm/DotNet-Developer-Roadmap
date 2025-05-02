@@ -6,9 +6,10 @@ If you want to learn more about .NET technologies, be sure to subscribe to **[my
 
 ## Grab my .NET Ultimate Bundle for 2025 — 500+ pages
 
-* Modern C# v6‑13 essentials
+* Modern C# v6‑13 features
 * 200 + interview Q\&As that hiring managers ask
 * 50 + real‑world design patterns in C#
+* A brief walk through the .NET ecosystem 
 * ASP.NET Core auth  & middleware best practices
 * Bonus: 73‑page C# cheat sheet
 * And more
