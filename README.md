@@ -4,7 +4,7 @@ This is a step-by-step guide to becoming a .NET Engineer, with links to relevant
 
 If you want to learn more about .NET technologies, be sure to subscribe to **[my newsletter](https://newsletter.techworld-with-milan.com/)**. 
 
-## Sharpen your .NET edge—500 + pages distilled from 20 years, 30 projects**
+## Grab my Ultimate .NET Bundle for 2025: 500+ pages distilled from 20 years, 30 projects
 
 * Modern C# v6‑13 essentials
 * 200 + interview Q\&As that hiring managers ask
@@ -12,6 +12,8 @@ If you want to learn more about .NET technologies, be sure to subscribe to **[my
 * ASP.NET Core auth  & middleware best practices
 * Bonus: 73‑page C# cheat sheet
 * And more
+
+[![Get the .NET Bundle 🚀](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
 
 [![.NET Ultimate Bundle](Bundle.png)](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
 
