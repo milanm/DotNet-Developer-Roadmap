@@ -12,7 +12,7 @@ This is a step-by-step guide to becoming a .NET Engineer, with links to relevant
 * Bonus: 73‑page C# cheat sheet
 * And more
 
-[Get the .NET Bundle 🚀](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
+[Get the .NET Ultimate Bundle 🚀](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
 
 [![.NET Ultimate Bundle](Bundle.png)](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
 
