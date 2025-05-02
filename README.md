@@ -1,8 +1,6 @@
 # .NET Developer Roadmap 2025.
 
-This is a step-by-step guide to becoming a .NET Engineer, with links to relevant learning resources.
-
-If you want to learn more about .NET technologies, be sure to subscribe to **[my newsletter](https://newsletter.techworld-with-milan.com/)**. 
+This is a step-by-step guide to becoming a .NET Engineer, with links to relevant (mostly free) learning resources.
 
 ## [Grab my .NET Ultimate Bundle for 2025 — 500+ pages](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
 
@@ -17,6 +15,8 @@ If you want to learn more about .NET technologies, be sure to subscribe to **[my
 [Get the .NET Bundle 🚀](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
 
 [![.NET Ultimate Bundle](Bundle.png)](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
+
+If you want to learn more about C# and .NET technologies, be sure to subscribe to **[my newsletter](https://newsletter.techworld-with-milan.com/)**. 
 
 ## Disclaimer
 
