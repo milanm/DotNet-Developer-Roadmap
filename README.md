@@ -9,8 +9,7 @@ This is a step-by-step guide to becoming a .NET Engineer, with links to relevant
 * 50+ real‑world design patterns in C#
 * A brief walk through the .NET ecosystem 
 * ASP.NET Core auth  & middleware best practices
-* Bonus: A complete C# cheat sheet
-* And more
+* Bonus: A complete C# Cheat Sheet
 
 [Get the .NET Ultimate Bundle 🚀](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
 
