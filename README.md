@@ -25,15 +25,7 @@ If you want to learn more about C# and .NET technologies, be sure to subscribe t
 
 If you like or are using this project to learn or start your solution, please give it a star. Thanks!
 
-## Roadmap (by seniority level)
-
-Note that by seniority level, it means:
-
-🟣 **Junior**: Basic concepts
-
-🟤 **Medior**: Advanced concepts
-
-🔴 **Senior**: Expert concepts
+## Roadmap 
 
 ![Roadmap](NET%20Roadmap.png)
 
