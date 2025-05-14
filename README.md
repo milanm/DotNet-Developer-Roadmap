@@ -657,6 +657,8 @@ Security plays an essential role in application development. The most critical a
 - [CLR via C#](https://amzn.to/4j3AyFp) by Jeffrey Richter (Rating: 4.6/5)
 - [Functional Programming in C#: How to write better C# code](https://amzn.to/4mgURSr) (Rating: 4.6/5)
 
+![Roadmap](Books.jpg)
+
 ### YouTube Channels
 
 - [IAmTimCorey](https://www.youtube.com/user/IAmTimCorey) 
