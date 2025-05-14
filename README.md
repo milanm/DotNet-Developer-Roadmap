@@ -636,10 +636,26 @@ Security plays an essential role in application development. The most critical a
 
 ### Books
 
-- [Learn C# in One Day and Learn It Well](https://amzn.to/3Qld3fT) - the best for beginners
-- [C# in Depth: Fourth Edition](https://amzn.to/3ZPcZbq) by Jon Skeet - the best for intermediate
-- [Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming](https://amzn.to/490EMtu) - the best for advanced
+#### Beginners
+- [Learn C# in One Day and Learn It Well](https://amzn.to/3Qld3fT), Jamie Chan - the best for beginners (Rating: 4.4/5)
+- [C#: Programming Basics for Absolute Beginners](https://amzn.to/4kbSNcC), Nathan Clark (Rating: 4/5)
+- [Starting out with Visual C#](https://amzn.to/4jULLsY), Tony Gaddis (Rating: 4.7/5)
 - [The C# Yellow](http://www.csharpcourse.com/) (free) - the best book overall
+
+#### Intermediate
+
+- [C# in Depth: Fourth Edition](https://amzn.to/3ZPcZbq) by Jon Skeet - the best for intermediate (Rating: 4.6/5)
+- [Agile Principles, Patterns, and Practices in C#](https://amzn.to/43gXwDd) by Robert Martin, Micah Martin (Rating: 4.5/5)
+- [Adaptive Code via C#: Agile coding with design patterns and SOLID principles](https://amzn.to/43f4E2W) by Gary McLean Hall (Rating: 4.5/5)
+- [Head First C#: A Learner’s Guide to Real-World Programming with C# and .NET Core](https://amzn.to/3S3sB85) by Andrew Stellman, Jennifer Greene (Rating: 4.5/5)
+- [C# 12 in a Nutshell: The Definitive Reference](https://amzn.to/43f4LeS) by Joseph Albahari (Rating: 4.6/5)
+- [C# 13 and .NET 9 – Modern Cross-Platform Development Fundamentals](https://amzn.to/4k5na4I) by Mark J. Price (Rating: 4.6/5)
+
+#### Advanced
+- [Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming](https://amzn.to/490EMtu) - the best for advanced (Rating: 4.6/5)
+- [Professional C# and .NET](https://amzn.to/458YHHb) by Christian Nagel (Rating: 4.3/5)
+- [CLR via C#](https://amzn.to/4j3AyFp) by Jeffrey Richter (Rating: 4.6/5)
+- [Functional Programming in C#: How to write better C# code](https://amzn.to/4mgURSr) (Rating: 4.6/5)
 
 ### YouTube Channels
 
