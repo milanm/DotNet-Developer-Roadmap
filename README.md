@@ -7,6 +7,7 @@ This is a step-by-step guide to becoming a .NET Engineer, with links to relevant
 * Modern C# v6‑13 features
 * 200+ interview Q\&As that hiring managers ask
 * 50+ real‑world design patterns in C#
+* Clean code development in C#
 * A brief walk through the .NET ecosystem 
 * ASP.NET Core auth  & middleware best practices
 * Bonus: A complete C# Cheat Sheet
