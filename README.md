@@ -641,7 +641,7 @@ Security plays an essential role in application development. The most critical a
 - [Learn C# in One Day and Learn It Well](https://amzn.to/3Qld3fT), Jamie Chan - the best for beginners (Rating: 4.4/5)
 - [C#: Programming Basics for Absolute Beginners](https://amzn.to/4kbSNcC), Nathan Clark (Rating: 4/5)
 - [Starting out with Visual C#](https://amzn.to/4jULLsY), Tony Gaddis (Rating: 4.7/5)
-- [The C# Yellow](http://www.csharpcourse.com/) (free) - the best book overall
+- [The C# Yellow book](http://www.csharpcourse.com/) (free) - the best book overall
 
 #### Intermediate
 
