@@ -162,6 +162,8 @@ But also **.NET libraries and APIs** for:
 
 **Resources**:
 
+- [C# Programming Cheat Sheet](https://github.com/milanm/csharp-cheatsheet)
+- [Why C#](https://newsletter.techworld-with-milan.com/p/why-csharp) - A comprehensive overview of C# language features.
 - [Microsoft Learn C#](https://dotnet.microsoft.com/en-us/learn/csharp).
 - [Microsoft C# Fundamentals for Absolute Beginners](https://learn.microsoft.com/en-us/shows/c-fundamentals-for-absolute-beginners/).
 - [Microsoft C# 101](https://learn.microsoft.com/en-us/shows/csharp-101/)
@@ -175,10 +177,8 @@ But also **.NET libraries and APIs** for:
     - [Async/Await](https://devblogs.microsoft.com/dotnet/how-async-await-really-works/) by Stephen Toub
     - [Threading in C#](https://www.albahari.com/threading/) by Joseph Albahari
     - [Concurrency](https://www.codeguru.com/csharp/thread-synchronization-c-sharp/) and [Locking](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/lock)
-- [Why C#](https://newsletter.techworld-with-milan.com/p/why-csharp) - A comprehensive overview of C# language features.
-- [C# Programming Cheat Sheet](https://github.com/milanm/csharp-cheatsheet)
-- [C# language specification - ECMA-334](https://www.ecma-international.org/publications-and-standards/standards/ecma-334/)
 
+- [C# language specification - ECMA-334](https://www.ecma-international.org/publications-and-standards/standards/ecma-334/)
 
 ### 2. General Development Skills
 
