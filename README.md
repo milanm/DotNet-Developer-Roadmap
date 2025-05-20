@@ -282,7 +282,7 @@ Note that **Minimal APIs** are now preferred for lightweight APIs, instead of co
           - [gRPC Fundamtenals](https://grpc.io/)
           - [Contracts and .proto files](https://learn.microsoft.com/en-us/aspnet/core/grpc/basics?)
           - [Protobuf](https://learn.microsoft.com/en-us/aspnet/core/grpc/protobuf)
-          - [Bidirectional communication](hhttps://learn.microsoft.com/en-us/aspnet/core/grpc/client)
+          - [Bidirectional communication](https://learn.microsoft.com/en-us/aspnet/core/grpc/client)
           - [Interceptors](https://learn.microsoft.com/en-us/aspnet/core/grpc/interceptors)
     - SDK Clients – Simplify calling external APIs or building resilient API integrations:
       - [Refit](https://github.com/reactiveui/refit) – Turns your REST API into a live interface via attributes.
