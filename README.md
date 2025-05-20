@@ -169,6 +169,7 @@ But also **.NET libraries and APIs** for:
 - [Microsoft C# 101](https://learn.microsoft.com/en-us/shows/csharp-101/)
 - [Udemy C# for Beginners - Coding From Scratch (.NET Core)](https://www.udemy.com/course/c-and-net-core-for-beginners/)
 - [C# Basics for Beginners: Learn C# Fundamentals by Coding](https://www.udemy.com/course/csharp-tutorial-for-beginners/)
+- [C# language specification - ECMA-334](https://www.ecma-international.org/publications-and-standards/standards/ecma-334/)
 - Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
 - [NuGet](https://learn.microsoft.com/en-us/nuget/what-is-nuget) package manager
 - [Dot Net Perls](https://www.dotnetperls.com/s#c#) - Many code examples in C#
@@ -177,8 +178,6 @@ But also **.NET libraries and APIs** for:
     - [Async/Await](https://devblogs.microsoft.com/dotnet/how-async-await-really-works/) by Stephen Toub
     - [Threading in C#](https://www.albahari.com/threading/) by Joseph Albahari
     - [Concurrency](https://www.codeguru.com/csharp/thread-synchronization-c-sharp/) and [Locking](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/lock)
-
-- [C# language specification - ECMA-334](https://www.ecma-international.org/publications-and-standards/standards/ecma-334/)
 
 ### 2. General Development Skills
 
