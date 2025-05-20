@@ -162,7 +162,7 @@ But also **.NET libraries and APIs** for:
 
 **Resources**:
 
-- [C# Programming Cheat Sheet](https://github.com/milanm/csharp-cheatsheet)
+- [C# Programming Cheat Sheet](https://github.com/milanm/csharp-cheatsheet) - This cheat sheet serves as a quick reference guide for C# developers at all skill levels.
 - [Why C#](https://newsletter.techworld-with-milan.com/p/why-csharp) - A comprehensive overview of C# language features.
 - [Microsoft Learn C#](https://dotnet.microsoft.com/en-us/learn/csharp).
 - [Microsoft C# Fundamentals for Absolute Beginners](https://learn.microsoft.com/en-us/shows/c-fundamentals-for-absolute-beginners/).
