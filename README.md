@@ -210,25 +210,30 @@ But also:
 - Learn [Clean Code](https://amzn.to/3Qdj91J)
 - Learn [Refactoring](https://www.pluralsight.com/courses/refactoring-fundamentals) fundamentals
 - Learn [Design Patterns from the book](https://amzn.to/3QcVQVS) or [video tutorials](https://www.pluralsight.com/paths/design-patterns-in-c) or download [cheat sheet](Patterns.png).
-  - Must know patterns are:
-    - Singleton
-    - Factory Method
-    - Adapter
-    - Facade
-    - Decorator
-    - Proxy
-    - Command
-    - Template method
-    - Strategy
-    - Observer
+  - [Creational Design Patterns](https://refactoring.guru/design-patterns/creational-patterns)
+  - [Structural Design Patterns](https://refactoring.guru/design-patterns/structural-patterns)
+  - [Behavioral Design Patterns](https://refactoring.guru/design-patterns/behavioral-patterns)
+  - [Repository pattern](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design)
+  - [Unit of Work pattern](https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)
 - Learn [Main software design](https://newsletter.techworld-with-milan.com/p/main-software-design-principles-you) principles
 - Learn [SOLID](https://www.pluralsight.com/courses/principles-oo-design) principles of OO Design in depth.
 - Learn [Clean Architecture](https://newsletter.techworld-with-milan.com/p/what-is-clean-architecture)
+- Learn [Modular Monolith Architecture](https://newsletter.techworld-with-milan.com/p/what-is-a-modular-monolith)
 - Software Architecture Styles
     - Learn [Fundamentals of Software Architectures](https://amzn.to/3rEtJWh)
     - Learn [Layered](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch01.html) architecture style
     - Learn [Microservices](https://microservices.io/) and [DAPR](https://dapr.io/)
-    - Learn [Domain-Driven Design](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design) or from [the book](https://amzn.to/49jl0tm)
+      - Microservices Patterns
+        - [Backend for Frontend](https://microservices.io/patterns/apigateway.html)
+        - [CQRS](https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+        - [Event Sourcing](https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
+        - [Saga](https://learn.microsoft.com/en-us/azure/architecture/patterns/saga)
+        - [Actor Model](https://getakka.net/articles/intro/what-are-actors.html)
+        - [Inbox pattern](https://learn.microsoft.com/en-us/azure/service-bus-messaging/duplicate-detection)
+        - [Sidecar pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar)
+        - [Outbox pattern](https://learn.microsoft.com/en-us/azure/architecture/databases/guide/transactional-outbox-cosmos)
+      - [Data Consistency](https://daily.dev/blog/10-methods-to-ensure-data-consistency-in-microservices)
+- Learn [Domain-Driven Design](https://learn.microsoft.com/en-us/archive/msdn-magazine/2009/february/best-practice-an-introduction-to-domain-driven-design) or from [the book](https://amzn.to/49jl0tm)
 
 ### 3. ASP.NET Core 
 
@@ -258,11 +263,32 @@ Note that **Minimal APIs** are now preferred for lightweight APIs, instead of co
     - [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-8.0)
       - [FastEndpoints](https://fast-endpoints.com/)
     - Protocols
-        - [REST](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
-        - [GraphQL](https://graphql.org/)
-        - [gRPC](https://grpc.io/)
-    - [REST API Design Best Practices](https://newsletter.techworld-with-milan.com/p/rest-api-design-best-practices)
-    - [Understanding REST Headers](https://newsletter.techworld-with-milan.com/p/understanding-rest-headers)
+        - REST:
+          - [REST API Design Best Practices](https://newsletter.techworld-with-milan.com/p/rest-api-design-best-practices)
+          - [REST Constraints](https://www.webscrapingapi.com/rest-api-architecture-constraints)
+          - [Understanding REST Headers](https://newsletter.techworld-with-milan.com/p/understanding-rest-headers)
+          - [REST Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
+          - [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
+          - [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS)
+          - [Data Shaping](https://code-maze.com/data-shaping-aspnet-core-webapi/)
+          - [Filtering, Sorting, Pagination](https://www.youtube.com/watch?v=X8zRvXbirMU)
+        - GraphQL:
+          - [Basics](https://graphql.org/)
+          - [Queries](https://chillicream.com/docs/hotchocolate/v15/defining-a-schema/queries)
+          - [Mutations](https://chillicream.com/docs/hotchocolate/v15/defining-a-schema/mutations)
+          - [Subscriptions](https://chillicream.com/docs/hotchocolate/v15/defining-a-schema/subscriptions)
+          - [Distributed Schemas](https://chillicream.com/docs/hotchocolate/v13/distributed-schema)
+        - gRPC:
+          - [gRPC Fundamtenals](https://grpc.io/)
+          - [Contracts and .proto files](https://learn.microsoft.com/en-us/aspnet/core/grpc/basics?)
+          - [Protobuf](https://learn.microsoft.com/en-us/aspnet/core/grpc/protobuf)
+          - [Bidirectional communication](hhttps://learn.microsoft.com/en-us/aspnet/core/grpc/client)
+          - [Interceptors](https://learn.microsoft.com/en-us/aspnet/core/grpc/interceptors)
+    - SDK Clients – Simplify calling external APIs or building resilient API integrations:
+      - [Refit](https://github.com/reactiveui/refit) – Turns your REST API into a live interface via attributes.
+      - [RestSharp](https://github.com/restsharp/RestSharp) – Low-level HTTP client wrapper, good for custom scenarios.
+      - [Polly](https://github.com/App-vNext/Polly) – Fault-handling (retry, circuit breaker, timeout) for HTTP requests.
+      - [Microsoft Resilience](https://learn.microsoft.com/en-us/dotnet/core/resilience/) – New resilience pipeline built into .NET.    
 - Dependency Injection
     - [Life Cycles](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
     - [Microsoft Extensions Dependency Injection](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection?view=dotnet-plat-ext-7.0)
@@ -271,11 +297,14 @@ Note that **Minimal APIs** are now preferred for lightweight APIs, instead of co
 - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
 - [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
 - Security
+    - [Identity on ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity)
     - [Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication) or [this Reddit thread](https://www.reddit.com/r/dotnet/comments/we9qx8/a_comprehensive_overview_of_authentication_in/)
     - [Authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/introduction)
     - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
     - [Auth0](https://auth0.com)
     - [OIDC](https://openid.net/connect)
+    - [Mutual TLS](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/) 
+    - [Keycloak](https://www.keycloak.org/)   
 
 ### 4. Client-Side .NET
 
@@ -308,6 +337,15 @@ Here, you need to know:
 
 - [Database design](https://www.youtube.com/watch?v=ztHopE5Wnpc)
 - [Learn SQL](https://newsletter.techworld-with-milan.com/p/how-to-learn-sql)
+  - [SELECT FROM](https://www.w3schools.com/sql/sql_select.asp)
+  - [WHERE](https://www.w3schools.com/sql/sql_where.asp)
+  - [ORDER BY](https://www.w3schools.com/sql/sql_orderby.asp)
+  - [GROUP BY, HAVING](https://www.w3schools.com/sql/sql_groupby.asp)
+  - [JOINs](http://www.w3schools.com/Sql/sql_join.asp)
+  - [Database views](https://www.geeksforgeeks.org/sql-views/)
+  - [Stored Procedures](https://www.w3schools.com/sql/sql_stored_procedures.asp)
+  - [Functions](https://www.w3schools.com/sql/sql_ref_sqlserver.asp)
+  - [Triggers](https://www.geeksforgeeks.org/sql-trigger-student-database/)
 - Relational
   - [SQL Server](https://www.microsoft.com/sql-server/sql-server-2019)
   - [PostgreSQL](https://www.postgresql.org) - recommened for new projects
@@ -319,8 +357,15 @@ Here, you need to know:
   - [RavenDB](https://github.com/ravendb/ravendb)
   - [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db) - recommened for new projects
   - [Marten](https://martendb.io/) -  (document DB and event store on PostgreSQL)
+  - [Apache Cassandra](https://cassandra.apache.org/)
+  - [DynamoDB](https://aws.amazon.com/dynamodb/)
 - Tools:
   - [SQLFlow](https://sqlflow.gudusoft.com/#/) - a great tool to visualize SQL queries.
+- Security:
+  - [TLS](https://dev.to/scylladb/database-101-ssltls-for-beginners-4lmn)
+  - [Transparent Data Encryption](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption)
+  - [Always Encrypted](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine)
+- [Consistency models](https://www.baeldung.com/cs/eventual-consistency-vs-strong-eventual-consistency-vs-strong-consistency)
 
 ### 6. ORM
 
@@ -340,8 +385,59 @@ For **Entity Framework**, you need to know the following:
     - [Code First Migrations](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)
     - [Change Tracker API](https://learn.microsoft.com/en-us/ef/core/change-tracking/)
     - [Lazy Eager Explicit Loading](https://learn.microsoft.com/en-us/ef/core/querying/related-data/) 
+    - Entity Relations:
+      - [One-to-One](https://learn.microsoft.com/en-us/ef/core/modeling/relationships/one-to-one)
+      - [One-to-Many](https://learn.microsoft.com/en-us/ef/core/modeling/relationships/one-to-many)
+      - [Many-to-Many](https://learn.microsoft.com/en-us/ef/core/modeling/relationships/many-to-many)
+    - Querying Data:
+      - [Eager Loading](https://learn.microsoft.com/en-us/ef/core/querying/related-data/eager)
+      - [Explicit Loading](https://learn.microsoft.com/en-us/ef/core/querying/related-data/explicit)
+      - [Lazy Loading](https://learn.microsoft.com/en-us/ef/core/querying/related-data/lazy)
+      - [AsNoTracking](https://learn.microsoft.com/en-us/ef/core/querying/tracking)
+      - [Filtering](https://www.learnentityframeworkcore.com/dbset/querying-data)
+      - [Sorting](https://code-maze.com/sorting-aspnet-core-webapi/)
+      - [Paging](https://learn.microsoft.com/en-us/ef/core/querying/pagination)
+      - [Projections](https://makolyte.com/ef-core-aggregate-select-queries/)
+      - [Aggregations](https://www.csharptutorial.net/entity-framework-core-tutorial/ef-core-group-by/)
+    - Advanced Querying:
+      - [Compiled Queries](https://learn.microsoft.com/en-us/ef/core/performance/efficient-querying)
+      - [Split Queries](https://learn.microsoft.com/en-us/ef/core/querying/single-split-queries)
+      - [Grouping](https://www.csharptutorial.net/entity-framework-core-tutorial/ef-core-group-by/)
+      - [Aggregation](https://makolyte.com/ef-core-aggregate-select-queries/)
+      - [Functions](https://learn.microsoft.com/en-us/ef/core/querying/database-functions)
+      - [Global Query Filters](https://learn.microsoft.com/en-us/ef/core/querying/filters)
+      - [Change Tracker](https://learn.microsoft.com/en-us/ef/core/change-tracking/)
+    - Advanced Writing:
+      - [Batch Update](https://learn.microsoft.com/en-us/ef/core/performance/efficient-updating)
+      - [Transactions] (https://learn.microsoft.com/en-us/ef/core/saving/transactions)
+      - Concurrency: [Optimistic Locking](https://www.learnentityframeworkcore.com/concurrency) and [Pessimistic Locking](https://learn.microsoft.com/en-us/ef/core/saving/concurrency)
+      - [Transaction Isolation Levels](https://www.bytehide.com/blog/transactions-ef-core)
+    - Migrations:
+      - [Add-Migration](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli#add-migration)
+      - [Update-Database](https://www.learnentityframeworkcore.com/migrations/update-database)
+      - [Scaffolding](https://learn.microsoft.com/en-us/ef/core/managing-schemas/scaffolding/)
+      - [Applying Migrations](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/applying)
+      - [Migrations with multiple providers](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/providers)
+    - Advanced Modeling Techniques:
+      - [Owned Entities](https://learn.microsoft.com/en-us/ef/core/modeling/owned-entities)
+      - [Table per Hierarchy (TPH)](https://www.learnentityframeworkcore.com/inheritance/table-per-hierarchy)
+      - [Table per Type (TPT)](https://www.learnentityframeworkcore.com/inheritance/table-per-type)
+      - [Table per Concrete Class (TPC)](https://code-maze.com/efcore-how-and-when-to-use-tpc-inheritance-mapping/)
+      - [Keyless Entities](https://learn.microsoft.com/en-us/ef/core/modeling/keyless-entity-types)
+      - [Complex Types](https://www.learnentityframeworkcore.com/model/complex-type)
+      - [Value Objects](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects)
+    - Patterns:
+      - [Repository Pattern](https://learn.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-8.0#repository-pattern)
+      - [Unit of Work Pattern](https://learn.microsoft.com/en-us/aspnet/core/data/ef-mvc/intro?view=aspnetcore-8.0#unit-of-work-pattern)      
+    - Advanced topics:
+      - [Temporal Tables](https://learn.microsoft.com/en-us/ef/core/providers/sql-server/temporal-tables)
+      - [Shadow properties](https://learn.microsoft.com/en-us/ef/core/modeling/shadow-properties)
+      - [Keyless entities](https://learn.microsoft.com/en-us/ef/core/modeling/keyless-entity-types)
+      - [DBContext pooling](https://learn.microsoft.com/en-us/ef/core/performance/advanced-performance-topics?tabs=with-di%2Cexpression-api-with-constant#dbcontext-pooling)
+      - [JSON Mapping](https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-7.0/whatsnew#mapping-to-json-columns)
 - [Dapper](https://github.com/StackExchange/Dapper)
 - [LINQ](https://www.dotnetnakama.com/blog/understanding-the-dot-net-language-integrated-query-linq/)
+     - [Index, CountBy, AggregateBy](https://timdeschryver.dev/blog/new-linq-methods-in-c-13-index-countby-aggregateby)
 - [ADO.NET](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/)
 
 ### 7. Testing
@@ -365,26 +461,46 @@ Here you need to know:
       - [TUnit](https://thomhurst.github.io/TUnit/)
     - Mocking
       - [NSubstitute](https://github.com/nsubstitute/NSubstitute) 
+      - [Moq](https://github.com/devlooped/moq)
     - Assertion
       - [Shouldly](https://github.com/shouldly/shouldly)
-    - Test Data Generators
-      - [Bogus](https://github.com/bchavez/Bogus)
-      - [AutoFixture](https://github.com/AutoFixture/AutoFixture)
+      - [xUnit Assert](https://xunit.net/)
+      - [Fluent Assertions](https://fluentassertions.com/) (PAID)
 - Integration Testing
     - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
     - [TestServer](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-7.0)
     - [Testcontainers](https://dotnet.testcontainers.org/)
+    - [Respawn](https://github.com/jbogard/Respawn)
 - Snapshot Testing
      - [Verify](https://github.com/VerifyTests/Verify)
 - Mutation Testing
      - [Stryker](https://stryker-mutator.io/)
 - Behavior Testing
-     - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore)
+     - [SpecFlow](https://github.com/techtalk/SpecFlow/tree/DotNetCore) (Not maintained)
+     - [Reqnroll](https://github.com/reqnroll/Reqnroll)
 - End-to-End Testing
      - [Playwright](https://playwright.dev/)
+     - [Selenium](https://www.selenium.dev/)
+     - [Cypress](https://www.cypress.io/)
 - Performance Testing
      - [K6](https://github.com/grafana/k6)
      - [JMeter](https://github.com/apache/jmeter)
+     - [BenchmarkDotNet](https://benchmarkdotnet.org/)]
+- Load Testing
+     - [NBomber](https://nbomber.com/)
+- Test Data Generators
+    - [Bogus](https://github.com/bchavez/Bogus)
+    - [AutoFixture](https://github.com/AutoFixture/AutoFixture)
+
+### 8. Logging
+
+Logging captures runtime information, errors, and other crucial data that can help you quickly identify and fix issues, making your application more reliable and secure. Logging frameworks like **NLog** or **Serilog** integrate seamlessly into .NET, giving you a real-time diagnostic tool indispensable for monitoring application health, troubleshooting problems, and even gathering insights for future development. 
+
+**Resources**:
+
+- [Serilog](https://github.com/serilog/serilog)
+- [NLog](https://github.com/NLog/NLog)
+- [Microsoft.Extensions.Logging](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging)
 
 ### 9. Communication
 
@@ -405,15 +521,21 @@ In .NET we have three types of communication: Real-time communication, Synchrono
          - [ActiveMQ](https://activemq.apache.org/)
          - [NetMQ](https://netmq.readthedocs.io/en/latest/)
          - [Apache Kafka](https://kafka.apache.org/)
+         - [Message Queues](https://www.geeksforgeeks.org/message-queues-system-design/)
+         - [Message Queue vs Pub-Sub](https://systemdesignschool.io/blog/message-queue-vs-pub-sub)
+         - [Dead Letter Exchange](https://medium.com/@shivanksingh01/rabbitmq-dead-letter-exchange-a-comprehensive-guide-node-js-b62967a76f10)
+         - [Handling Duplicate Messages](https://codeopinion.com/handling-duplicate-messages-idempotent-consumers/)
      - Message bus:
          - [MassTransit](https://github.com/MassTransit/MassTransit)
+         - [Rebus](https://github.com/rebus-org/Rebus)
          - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
          - [NServiceBus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/build-message-driven-apps-nservicebus?tabs=Sender)
          - [EasyNetQ](https://easynetq.com/)
+         - [Wolverine](https://wolverinefx.net/)
      - Event handlers:
          - [Azure Event Hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-about)
          - [Azure Event Grid](https://docs.microsoft.com/azure/event-grid/overview)
-   
+
 ### 10. Background tasks
 
 These services run tasks in the background, freeing up your application to focus on user interactions. Whether **data processing, automated emails, or periodic clean-ups**, background services ensure these tasks don't slow down or interrupt the user experience. 
@@ -423,6 +545,7 @@ These services run tasks in the background, freeing up your application to focus
 - [Background Service](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
 - [HangFire](https://github.com/HangfireIO/Hangfire)
 - [Quartz](https://github.com/quartznet/quartznet)
+- [Coravel](https://docs.coravel.net/Scheduler/)
 
 ### 11. Caching
 
@@ -431,22 +554,12 @@ Caching is like your app's personal short-term memory, storing frequently access
 **Resources**:
 
 - [Memory Cache](https://docs.microsoft.com/aspnet/core/performance/caching/memory)
+  - [FusionCache](https://github.com/ZiggyCreatures/FusionCache)
 - [Hybrid Cache](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/hybrid?view=aspnetcore-9.0)
 - [Redis](https://redis.io/)
 - Application-Level
    - [Built-in](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/response)
    - [Output Caching](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/output?source=recommendations)
-
-### 8. Logging
-
-Logging captures runtime information, errors, and other crucial data that can help you quickly identify and fix issues, making your application more reliable and secure. Logging frameworks like **NLog** or **Serilog** integrate seamlessly into .NET, giving you a real-time diagnostic tool indispensable for monitoring application health, troubleshooting problems, and even gathering insights for future development. 
-
-**Resources**:
-
-- [Serilog](https://github.com/serilog/serilog)
-- [NLog](https://github.com/NLog/NLog)
-- [Microsoft.Extensions.Logging](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging)
-
 
 ### 12. Observability   
 
@@ -474,6 +587,11 @@ Container solutions encapsulate your .NET application, libraries, and runtime in
 **Resources**:
 - Containers
     - [Docker](https://www.docker.com)
+      - [Networking](https://docs.docker.com/engine/network/)
+      - [Env Variables](https://docs.docker.com/compose/how-tos/environment-variables/set-environment-variables/)
+      - [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+      - [Docker CLI](https://docs.docker.com/engine/reference/commandline/cli/)
+      - [Volumes](https://docs.docker.com/storage/volumes/)
     - [Docker Compose](https://docs.docker.com/compose/)
     - [Docker Hub](https://hub.docker.com/)
     - [Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-intro)
@@ -496,9 +614,28 @@ Here, you must know how to manage users and administration, networks, virtual se
 **Resources**:
 
 - [AWS](https://aws.amazon.com/)
+  - [AWS S3](https://aws.amazon.com/s3/)
+  - [DynamoDB](https://aws.amazon.com/dynamodb/)
+  - [SQS/SNS](https://aws.amazon.com/blogs/dotnet/event-driven-net-applications-with-aws-lambda-and-amazon-eventbridge/)
+  - [AWS Kinesis](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/csharp_kinesis_code_examples.html)
+  - [AWS Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send)
+  - [AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html)
+  - [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
 - [Azure](https://azure.microsoft.com/)
+  - [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview)
+  - [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
+  - [Azure Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send)
+  - [Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+  - [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault)
+  - [Azure Storage](https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction)
+  - [Azure CosmosDB](https://learn.microsoft.com/en-us/azure/cosmos-db/)
 - [Google Cloud](https://cloud.google.com/)
 - [.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview/) *(cloud-native .NET application model for microservices)
+- API Gateway:
+  - [Envoy](https://www.envoyproxy.io/)
+  - [YARP](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/yarp/getting-started?view=aspnetcore-9.0)
+  - [Nginx](https://nginx.org/)
+  - [Service Discovery](https://learn.microsoft.com/en-us/dotnet/core/extensions/service-discovery?tabs=dotnet-cli)
 
 ### 15. Continuous Integration & Delivery (CI/CD)
 
@@ -517,6 +654,7 @@ Here you need to know how to:
     - [GitHub Actions](https://github.com/features/actions)
     - [Gitlab CI](https://docs.gitlab.com/ee/ci)
     - [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
+    - [AWS CodePipeline](https://aws.amazon.com/codepipeline/)
     - [Travis CI](https://travis-ci.org)
     - [Jenkins](https://www.jenkins.io)
     - [TeamCity](https://www.jetbrains.com/teamcity)
@@ -546,18 +684,36 @@ For a .NET developer, key areas to understand include:
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) 
 - [OpenAI .NET SDK](https://platform.openai.com/docs/) 
 - [Azure AI Services](https://azure.microsoft.com/en-us/products/cognitive-services/) 
+- AI Tools:
+  - Chat-based
+    - [ChatGPT](https://openai.com/chatgpt)
+    - [Claude](https://www.anthropic.com/index/claude-ai)
+  - Web-based
+    - [Bolt](https://bolt.new/)
+    - [Replit](https://replit.com/)
+    - [Loveable](https://lovable.dev/)
+  - Agentic
+    - [GitHub Copilot](https://github.com/features/copilot)
+    - [Aider](https://aider.chat/)
+    - [TabbyML](https://tabbyml.com/)
+  - IDE
+    - [Windsurf](https://windsurf.com/)
+    - [Cursor](https://www.cursor.com/)
 
 ### 17. NET Libraries
 
 Some useful .NET libraries. Note that not all libraries will be used by everyone, it mainly depends on a project you work on.
 
-- **[MediatR](https://github.com/jbogard/MediatR)** - Mediator pattern implementation in .NET
-- **[Polly](https://github.com/App-vNext/Polly)** - Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
-- **[Fluent Validation](https://github.com/JeremySkinner/FluentValidation)** - .NET validation library for building strongly-typed validation rules.
-- **[Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)** - .NET library for benchmarking.
-- **[Refit](https://github.com/reactiveui/refit)** - Turns your REST API into a live interface.
-- **[YARP](https://microsoft.github.io/reverse-proxy/)** - Reverse proxy server.
-- **[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)** - Swagger tools for documenting API's built on ASP.NET Core. (*not anymore supported from .NET 9, check [NSwag](https://github.com/RicoSuter/NSwag))
+- **[MediatR](https://github.com/jbogard/MediatR)** – Mediator pattern implementation in .NET 
+- **[Polly](https://github.com/App-vNext/Polly)** – Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
+- **[Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)** – .NET library for benchmarking.
+- **[YARP](https://microsoft.github.io/reverse-proxy/)** – Reverse proxy server.
+- **[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)** – Swagger tools for documenting API's built on ASP.NET Core. (*Not supported from .NET 9, check [NSwag](https://github.com/RicoSuter/NSwag)*)
+- **[FluentValidation](https://github.com/JeremySkinner/FluentValidation)** – The most popular library for building strongly-typed validation rules with fluent syntax.
+- **Object Mapping** – Libraries for transforming between domain models, DTOs, and view models:
+  - **[AutoMapper](https://github.com/AutoMapper/AutoMapper)** – Convention-based mapping using profiles.
+  - **[Mapster](https://github.com/MapsterMapper/Mapster)** – Lightweight, fast, and flexible.
+  - **[Mapperly](https://github.com/riok/mapperly)** – Compile-time, source generator-based mapper for performance and type safety.  
 
 ## Additional considerations
 
@@ -720,7 +876,6 @@ Security plays an essential role in application development. The most critical a
 - [Postman](https://www.postman.com/) - platform for testing APIs.
 - [NDepend](https://www.ndepend.com/) - static code analyzer.
 - [NCrunch for Visual Studio](https://www.ncrunch.net/) - enables developers to run tests in the background as they write code.
-
 
 ## Wrap Up
 
