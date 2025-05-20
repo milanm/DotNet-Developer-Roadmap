@@ -1,6 +1,6 @@
 # .NET Developer Roadmap 2025.
 
-This is a step-by-step guide to becoming a .NET Engineer, with links to relevant (mostly free) learning resources.
+This is a step-by-step guide to becoming a .NET Engineer, with 260+ distinct tools, libraries, blogs, books, videos, frameworks, or concepts. 
 
 ## [Grab my .NET Ultimate Bundle for 2025 — 500+ pages](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
 
@@ -8,7 +8,7 @@ This is a step-by-step guide to becoming a .NET Engineer, with links to relevant
 * Modern C# v6‑13 features
 * 200+ interview Q\&As that hiring managers ask
 * 50+ real‑world design patterns in C#
-* Clean code development in C#
+* Clean code development in C# course
 * ASP.NET Core auth  & middleware best practices
 * Bonus: A complete C# Cheat Sheet
 
