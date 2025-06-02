@@ -806,6 +806,7 @@ Security plays an essential role in application development. The most critical a
 - [Head First C#: A Learner’s Guide to Real-World Programming with C# and .NET Core](https://amzn.to/3S3sB85) by Andrew Stellman, Jennifer Greene (Rating: 4.5/5)
 - [C# 12 in a Nutshell: The Definitive Reference](https://amzn.to/43f4LeS) by Joseph Albahari (Rating: 4.6/5)
 - [C# 13 and .NET 9 – Modern Cross-Platform Development Fundamentals](https://amzn.to/4k5na4I) by Mark J. Price (Rating: 4.6/5)
+- [Dependency Injection Principles, Practices, and Patterns](https://amzn.to/43MStur) by Mark Seemann, Steven van Deursen (Rating: 4.7/5)
 
 #### Advanced
 - [Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming](https://amzn.to/490EMtu) - the best for advanced (Rating: 4.6/5)
