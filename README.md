@@ -2,7 +2,7 @@
 
 This is a step-by-step guide to becoming a .NET Engineer, featuring over 260 distinct tools, libraries, blogs, books, videos, frameworks, and concepts. 
 
-## [Grab my .NET Ultimate Bundle for 2025 - 500+ pages and a course](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
+## [Grab my .NET Ultimate Bundle for 2025 (500+ pages and a course)](https://www.patreon.com/techworld_with_milan/shop/ultimate-net-bundle-for-2025-1519389)
 
 * A brief walk through the .NET ecosystem 
 * Modern C# v6‑13 features
