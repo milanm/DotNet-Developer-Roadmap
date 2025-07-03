@@ -692,7 +692,7 @@ For a .NET developer, key areas to understand include:
     - [Replit](https://replit.com/)
     - [Loveable](https://lovable.dev/)
   - Agentic
-    - [GitHub Copilot](https://github.com/features/copilot) (+ [Customizations](https://github.com/github/awesome-copilot))
+    - [GitHub Copilot](https://github.com/features/copilot) (+[Customizations](https://github.com/github/awesome-copilot))
     - [Aider](https://aider.chat/)
     - [TabbyML](https://tabbyml.com/)
   - IDE
