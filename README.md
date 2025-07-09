@@ -704,7 +704,7 @@ For a .NET developer, key areas to understand include:
 
 Some useful .NET libraries. Note that not all libraries will be used by everyone, it mainly depends on a project you work on.
 
-- **[MediatR](https://github.com/jbogard/MediatR)** – Mediator pattern implementation in .NET (not recommended -> own manual handlers are better)
+- **[MediatR](https://github.com/jbogard/MediatR)** – Mediator pattern implementation in .NET (not recommended -> manual handlers are better)
 - **[Polly](https://github.com/App-vNext/Polly)** – Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
 - **[Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)** – .NET library for benchmarking.
 - **[YARP](https://microsoft.github.io/reverse-proxy/)** – Reverse proxy server.
