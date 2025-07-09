@@ -284,14 +284,14 @@ Note that **Minimal APIs** are now preferred for lightweight APIs, instead of co
           - [Bidirectional communication](https://learn.microsoft.com/en-us/aspnet/core/grpc/client)
           - [Interceptors](https://learn.microsoft.com/en-us/aspnet/core/grpc/interceptors)
     - SDK Clients – Simplify calling external APIs or building resilient API integrations:
-      - [Refit](https://github.com/reactiveui/refit) – Turns your REST API into a live interface via attributes.
+      - [Refit](https://github.com/reactiveui/refit) – Turns your REST API into a live interface via attributes. -> Recommended
       - [RestSharp](https://github.com/restsharp/RestSharp) – Low-level HTTP client wrapper, good for custom scenarios.
       - [Polly](https://github.com/App-vNext/Polly) – Fault-handling (retry, circuit breaker, timeout) for HTTP requests.
       - [Microsoft Resilience](https://learn.microsoft.com/en-us/dotnet/core/resilience/) – New resilience pipeline built into .NET.    
 - Dependency Injection
     - [Life Cycles](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
-    - [Microsoft Extensions Dependency Injection](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection?view=dotnet-plat-ext-7.0)
-    - [Autofac](https://autofac.org/)
+    - [Microsoft Extensions Dependency Injection](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection?view=dotnet-plat-ext-7.0) -> Recommended
+    - [Autofac](https://autofac.org/) -> Outdated!
     - [Scrutor](https://github.com/khellang/Scrutor)
 - [Application Settings & Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
 - [Filters & Attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
@@ -454,17 +454,18 @@ Here you need to know:
 
 - [Unit Testing](https://www.pluralsight.com/courses/advanced-unit-testing)
     - Frameworks
-      - [xUnit](https://xunit.net/)
+      - [xUnit](https://xunit.net/) -> Recommended
       - [NUnit](https://nunit.org/)
       - [MSTest](https://docs.microsoft.com/dotnet/core/testing/unit-testing-with-mstest)
       - [TUnit](https://thomhurst.github.io/TUnit/)
     - Mocking
       - [NSubstitute](https://github.com/nsubstitute/NSubstitute) 
-      - [Moq](https://github.com/devlooped/moq)
+      - [Moq](https://github.com/devlooped/moq) -> Recommended
     - Assertion
-      - [Shouldly](https://github.com/shouldly/shouldly)
+      - [Shouldly](https://github.com/shouldly/shouldly) -> Recommended
       - [xUnit Assert](https://xunit.net/)
       - [Fluent Assertions](https://fluentassertions.com/) (PAID)
+      - [Awesome Assertions](https://awesomeassertions.org/)
 - Integration Testing
     - [WebApplicationFactory](https://docs.microsoft.com/aspnet/core/test/integration-tests)
     - [TestServer](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-7.0)
@@ -488,8 +489,8 @@ Here you need to know:
 - Load Testing
      - [NBomber](https://nbomber.com/)
 - Test Data Generators
-    - [Bogus](https://github.com/bchavez/Bogus)
-    - [AutoFixture](https://github.com/AutoFixture/AutoFixture)
+    - [Bogus](https://github.com/bchavez/Bogus) -> Recommended
+    - [AutoFixture](https://github.com/AutoFixture/AutoFixture) 
 
 ### 8. Logging
 
@@ -525,10 +526,10 @@ In .NET we have three types of communication: Real-time communication, Synchrono
          - [Dead Letter Exchange](https://medium.com/@shivanksingh01/rabbitmq-dead-letter-exchange-a-comprehensive-guide-node-js-b62967a76f10)
          - [Handling Duplicate Messages](https://codeopinion.com/handling-duplicate-messages-idempotent-consumers/)
      - Message bus:
-         - [MassTransit](https://github.com/MassTransit/MassTransit)
+         - [MassTransit](https://github.com/MassTransit/MassTransit) -> Recommended
          - [Rebus](https://github.com/rebus-org/Rebus)
          - [Azure Service Bus](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview)
-         - [NServiceBus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/build-message-driven-apps-nservicebus?tabs=Sender)
+         - [NServiceBus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/build-message-driven-apps-nservicebus?tabs=Sender) (PAID)
          - [EasyNetQ](https://easynetq.com/)
          - [Wolverine](https://wolverinefx.net/)
      - Event handlers:
@@ -703,16 +704,16 @@ For a .NET developer, key areas to understand include:
 
 Some useful .NET libraries. Note that not all libraries will be used by everyone, it mainly depends on a project you work on.
 
-- **[MediatR](https://github.com/jbogard/MediatR)** – Mediator pattern implementation in .NET 
+- **[MediatR](https://github.com/jbogard/MediatR)** – Mediator pattern implementation in .NET (not recommended -> own manual handlers are better)
 - **[Polly](https://github.com/App-vNext/Polly)** – Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
 - **[Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)** – .NET library for benchmarking.
 - **[YARP](https://microsoft.github.io/reverse-proxy/)** – Reverse proxy server.
 - **[Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)** – Swagger tools for documenting API's built on ASP.NET Core. (*Not supported from .NET 9, check [NSwag](https://github.com/RicoSuter/NSwag)*)
 - **[FluentValidation](https://github.com/JeremySkinner/FluentValidation)** – The most popular library for building strongly-typed validation rules with fluent syntax.
 - **Object Mapping** – Libraries for transforming between domain models, DTOs, and view models:
-  - **[AutoMapper](https://github.com/AutoMapper/AutoMapper)** – Convention-based mapping using profiles.
+  - **[AutoMapper](https://github.com/AutoMapper/AutoMapper)** – Convention-based mapping using profiles. (not recommended -> use manual mapping)
   - **[Mapster](https://github.com/MapsterMapper/Mapster)** – Lightweight, fast, and flexible.
-  - **[Mapperly](https://github.com/riok/mapperly)** – Compile-time, source generator-based mapper for performance and type safety.  
+  - **[Mapperly](https://github.com/riok/mapperly)** – Compile-time, source generator-based mapper for performance and type safety. (better alternative to AutoMapper)
 
 ## Additional considerations
 
