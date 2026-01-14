@@ -546,6 +546,7 @@ These services run tasks in the background, freeing up your application to focus
 - [HangFire](https://github.com/HangfireIO/Hangfire)
 - [Quartz](https://github.com/quartznet/quartznet)
 - [Coravel](https://docs.coravel.net/Scheduler/)
+- [TickerQ](https://tickerq.net/)
 
 ### 11. Caching
 
