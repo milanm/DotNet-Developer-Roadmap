@@ -762,6 +762,7 @@ Some useful .NET libraries. Note that not all libraries will be used by everyone
 
 - **[MediatR](https://github.com/jbogard/MediatR)** – Mediator pattern implementation in .NET. (Now under a **commercial license** for most production use; not recommended -> manual handlers are better)
   - **[Mediator](https://github.com/martinothamar/Mediator)** – Source-generated, MIT-licensed alternative to MediatR.
+  - **[Relevox](https://github.com/tunahanaliozturk/relevox)** – Source-generated, MIT-licensed alternative that keeps MediatR 12's handler signatures, with a code fix for migrating.
 - **[Polly](https://github.com/App-vNext/Polly)** – Fault-handling library that allows expressing policies such as Retry and Circuit Breaker.
 - **[Benchmark.NET](https://github.com/dotnet/BenchmarkDotNet)** – .NET library for benchmarking.
 - **[YARP](https://microsoft.github.io/reverse-proxy/)** – Reverse proxy server.
